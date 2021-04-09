@@ -115,80 +115,80 @@ OS:LifeCycleCost:Parameters,
   ;                                       !- Length of Study Period in Years
 
 OS:Material,
-  {2e7157dc-32c2-44e3-9415-7874ececbba9}, !- Handle
-  concreto_fc150_granzon_L8_a0pX,         !- Name
-  MediumRough,                            !- Roughness
-  0.15,                                   !- Thickness {m}
-  1.3,                                    !- Conductivity {W/m-K}
-  1800,                                   !- Density {kg/m3}
-  1000,                                   !- Specific Heat {J/kg-K}
-  0.8,                                    !- Thermal Absorptance
-  0.3,                                    !- Solar Absorptance
-  0.3;                                    !- Visible Absorptance
+  {2e7157dc-32c2-44e3-9415-7874ececbba9},!- Handle
+  concreto_fc150_granzon_L8_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.15,!- Thickness {m}
+  1.3,!- Conductivity {W/m-K}
+  1800.0,!- Density {kg/m3}
+  1000.0,!- Specific Heat {J/kg-K}
+  0.8,!- Thermal Absorptance
+  0.3,!- Solar Absorptance
+  1.0;!- Visible Absorptance
 
 OS:StandardsInformation:Material,
   {d5eba849-659d-4a95-a5d7-17297bea90bc}, !- Handle
   {2e7157dc-32c2-44e3-9415-7874ececbba9}; !- Material Name
 
 OS:Material,
-  {acc9b317-088e-4fa3-a849-9aec59e11271}, !- Handle
-  concreto_fc150_L6_a0pX,                 !- Name
-  MediumRough,                            !- Roughness
-  0.15,                                   !- Thickness {m}
-  1.3,                                    !- Conductivity {W/m-K}
-  1800,                                   !- Density {kg/m3}
-  1000,                                   !- Specific Heat {J/kg-K}
-  ,                                       !- Thermal Absorptance
-  0.5,                                    !- Solar Absorptance
-  0.5;                                    !- Visible Absorptance
+  {acc9b317-088e-4fa3-a849-9aec59e11271},!- Handle
+  concreto_fc150_L6_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.15,!- Thickness {m}
+  1.3,!- Conductivity {W/m-K}
+  1800.0,!- Density {kg/m3}
+  1000.0,!- Specific Heat {J/kg-K}
+  ,!- Thermal Absorptance
+  0.5,!- Solar Absorptance
+  0.5;!- Visible Absorptance
 
 OS:StandardsInformation:Material,
   {0368c289-73a3-4070-b9e4-b166bb029582}, !- Handle
   {acc9b317-088e-4fa3-a849-9aec59e11271}; !- Material Name
 
 OS:Material,
-  {fe21d530-02b9-4f7e-8369-6955e97efd5a}, !- Handle
-  concreto_fc250_L30_a0pX,                !- Name
-  MediumRough,                            !- Roughness
-  0.3,                                    !- Thickness {m}
-  1.3,                                    !- Conductivity {W/m-K}
-  1800,                                   !- Density {kg/m3}
-  1000,                                   !- Specific Heat {J/kg-K}
-  0.8,                                    !- Thermal Absorptance
-  0.3,                                    !- Solar Absorptance
-  0.3;                                    !- Visible Absorptance
+  {fe21d530-02b9-4f7e-8369-6955e97efd5a},!- Handle
+  concreto_fc250_L30_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.3,!- Thickness {m}
+  1.3,!- Conductivity {W/m-K}
+  1800.0,!- Density {kg/m3}
+  1000.0,!- Specific Heat {J/kg-K}
+  0.8,!- Thermal Absorptance
+  0.3,!- Solar Absorptance
+  0.3;!- Visible Absorptance
 
 OS:StandardsInformation:Material,
   {088c3319-df7a-44f0-bd50-c1eab3f96fef}, !- Handle
   {fe21d530-02b9-4f7e-8369-6955e97efd5a}; !- Material Name
 
 OS:Material,
-  {8f09ab24-4c76-41a0-aafb-911a9de403f8}, !- Handle
-  madera_L2p2_a0pX,                       !- Name
-  Smooth,                                 !- Roughness
-  0.02,                                   !- Thickness {m}
-  0.14,                                   !- Conductivity {W/m-K}
-  600,                                    !- Density {kg/m3}
-  1210,                                   !- Specific Heat {J/kg-K}
-  0.8,                                    !- Thermal Absorptance
-  0.3,                                    !- Solar Absorptance
-  0.3;                                    !- Visible Absorptance
+  {8f09ab24-4c76-41a0-aafb-911a9de403f8},!- Handle
+  madera_L2p2_a0pX,!- Name
+  Smooth,!- Roughness
+  0.02,!- Thickness {m}
+  0.14,!- Conductivity {W/m-K}
+  600.0,!- Density {kg/m3}
+  1210.0,!- Specific Heat {J/kg-K}
+  0.8,!- Thermal Absorptance
+  0.3,!- Solar Absorptance
+  0.3;!- Visible Absorptance
 
 OS:StandardsInformation:Material,
   {a1416765-39ac-46eb-8c7d-5ea2965924f2}, !- Handle
   {8f09ab24-4c76-41a0-aafb-911a9de403f8}; !- Material Name
 
 OS:Material,
-  {9c0ea449-48e9-4c01-b8c0-5a414bb4b01c}, !- Handle
-  marmol_L2_a0pX,                         !- Name
-  Smooth,                                 !- Roughness
-  0.02,                                   !- Thickness {m}
-  2.51,                                   !- Conductivity {W/m-K}
-  2700,                                   !- Density {kg/m3}
-  879,                                    !- Specific Heat {J/kg-K}
-  ,                                       !- Thermal Absorptance
-  0.5,                                    !- Solar Absorptance
-  0.5;                                    !- Visible Absorptance
+  {9c0ea449-48e9-4c01-b8c0-5a414bb4b01c},!- Handle
+  marmol_L2_a0pX,!- Name
+  Smooth,!- Roughness
+  0.02,!- Thickness {m}
+  2.51,!- Conductivity {W/m-K}
+  2700.0,!- Density {kg/m3}
+  879.0,!- Specific Heat {J/kg-K}
+  ,!- Thermal Absorptance
+  0.5,!- Solar Absorptance
+  0.5;!- Visible Absorptance
 
 OS:StandardsInformation:Material,
   {5b847366-01f3-4193-bfae-a3ad564f498d}, !- Handle
@@ -268,16 +268,16 @@ OS:Rendering:Color,
   113;                                    !- Rendering Blue Value
 
 OS:Material,
-  {5cd569c2-f644-4e8f-9141-bf790450e27a}, !- Handle
-  concreto_fc250_L20_a0pX,                !- Name
-  MediumRough,                            !- Roughness
-  0.2,                                    !- Thickness {m}
-  1.3,                                    !- Conductivity {W/m-K}
-  1800,                                   !- Density {kg/m3}
-  1000,                                   !- Specific Heat {J/kg-K}
-  0.9,                                    !- Thermal Absorptance
-  0.5,                                    !- Solar Absorptance
-  0.5;                                    !- Visible Absorptance
+  {5cd569c2-f644-4e8f-9141-bf790450e27a},!- Handle
+  concreto_fc250_L20_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.2,!- Thickness {m}
+  1.3,!- Conductivity {W/m-K}
+  1800.0,!- Density {kg/m3}
+  1000.0,!- Specific Heat {J/kg-K}
+  0.9,!- Thermal Absorptance
+  0.5,!- Solar Absorptance
+  0.5;!- Visible Absorptance
 
 OS:StandardsInformation:Material,
   {d3818205-238d-4d49-be79-11bac19cf78b}, !- Handle
@@ -8742,13 +8742,13 @@ OS:StandardsInformation:Construction,
   {56aed68c-e27f-46b0-8bf4-4daca460e6b1}; !- Construction Name
 
 OS:Material,
-  {da0ae925-c712-45dc-a93f-babc664e7911}, !- Handle
-  mortero1:4_L1_a0pX,                     !- Name
-  MediumRough,                            !- Roughness
-  0.01,                                   !- Thickness {m}
-  1,                                      !- Conductivity {W/m-K}
-  1800,                                   !- Density {kg/m3}
-  1000;                                   !- Specific Heat {J/kg-K}
+  {da0ae925-c712-45dc-a93f-babc664e7911},!- Handle
+  mortero1:4_L1_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.01,!- Thickness {m}
+  1.0,!- Conductivity {W/m-K}
+  1800.0,!- Density {kg/m3}
+  1000.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {f707bd2c-71aa-4c72-88bc-b7a0300b8a21}, !- Handle
@@ -9071,134 +9071,134 @@ OS:StandardsInformation:Material,
   {ed9dd4f0-c93c-4ffb-bb14-73e60056a477}; !- Material Name
 
 OS:Material,
-  {e16848b4-1484-4261-862a-9a7dd6b3ac04}, !- Handle
-  loseta_Lx_a0pX,                         !- Name
-  Smooth,                                 !- Roughness
-  0.01,                                   !- Thickness {m}
-  2.2,                                    !- Conductivity {W/m-K}
-  260,                                    !- Density {kg/m3}
-  750;                                    !- Specific Heat {J/kg-K}
+  {e16848b4-1484-4261-862a-9a7dd6b3ac04},!- Handle
+  loseta_Lx_a0pX,!- Name
+  Smooth,!- Roughness
+  0.01,!- Thickness {m}
+  2.2,!- Conductivity {W/m-K}
+  260.0,!- Density {kg/m3}
+  750.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {284e276d-a432-4042-a578-cf571ed9fb46}, !- Handle
   {e16848b4-1484-4261-862a-9a7dd6b3ac04}; !- Material Name
 
 OS:Material,
-  {d2d407be-ecda-4a03-9396-eac43147510b}, !- Handle
-  impermeabilizante_LX_a0p3,              !- Name
-  VeryRough,                              !- Roughness
-  0.0095,                                 !- Thickness {m}
-  0.16,                                   !- Conductivity {W/m-K}
-  1121.29,                                !- Density {kg/m3}
-  1460,                                   !- Specific Heat {J/kg-K}
-  ,                                       !- Thermal Absorptance
-  0.7;                                    !- Solar Absorptance
+  {d2d407be-ecda-4a03-9396-eac43147510b},!- Handle
+  impermeabilizante_LX_a0p3,!- Name
+  VeryRough,!- Roughness
+  0.0095,!- Thickness {m}
+  0.16,!- Conductivity {W/m-K}
+  1121.29,!- Density {kg/m3}
+  1460.0,!- Specific Heat {J/kg-K}
+  ,!- Thermal Absorptance
+  0.7;!- Solar Absorptance
 
 OS:StandardsInformation:Material,
   {34d9c424-b095-4e20-853a-eb24aa09619b}, !- Handle
   {d2d407be-ecda-4a03-9396-eac43147510b}; !- Material Name
 
 OS:Material,
-  {45bdcac2-5b3a-40bc-b7bf-02f626071ad6}, !- Handle
-  fachaleta_L1_a0p3,                      !- Name
-  Smooth,                                 !- Roughness
-  0.01,                                   !- Thickness {m}
-  0.7,                                    !- Conductivity {W/m-K}
-  1970,                                   !- Density {kg/m3}
-  100;                                    !- Specific Heat {J/kg-K}
+  {45bdcac2-5b3a-40bc-b7bf-02f626071ad6},!- Handle
+  fachaleta_L1_a0p3,!- Name
+  Smooth,!- Roughness
+  0.01,!- Thickness {m}
+  0.7,!- Conductivity {W/m-K}
+  1970.0,!- Density {kg/m3}
+  100.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {ba479c42-c446-402a-8e38-e15a5e653ba1}, !- Handle
   {45bdcac2-5b3a-40bc-b7bf-02f626071ad6}; !- Material Name
 
 OS:Material,
-  {dfef79a3-58a5-41b7-8614-5a9b90dacf84}, !- Handle
-  concreto_fc200_L15_a0pX,                !- Name
-  MediumRough,                            !- Roughness
-  0.15,                                   !- Thickness {m}
-  1.3,                                    !- Conductivity {W/m-K}
-  1800,                                   !- Density {kg/m3}
-  1000;                                   !- Specific Heat {J/kg-K}
+  {dfef79a3-58a5-41b7-8614-5a9b90dacf84},!- Handle
+  concreto_fc200_L15_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.15,!- Thickness {m}
+  1.3,!- Conductivity {W/m-K}
+  1800.0,!- Density {kg/m3}
+  1000.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {23e35b75-0201-4171-9625-2bac7797a826}, !- Handle
   {dfef79a3-58a5-41b7-8614-5a9b90dacf84}; !- Material Name
 
 OS:Material,
-  {6c741245-1f77-46ed-b76a-c9c55425e049}, !- Handle
-  durock_L1p27_a0p3,                      !- Name
-  Smooth,                                 !- Roughness
-  0.0127,                                 !- Thickness {m}
-  0.029,                                  !- Conductivity {W/m-K}
-  1920,                                   !- Density {kg/m3}
-  670;                                    !- Specific Heat {J/kg-K}
+  {6c741245-1f77-46ed-b76a-c9c55425e049},!- Handle
+  durock_L1p27_a0p3,!- Name
+  Smooth,!- Roughness
+  0.0127,!- Thickness {m}
+  0.029,!- Conductivity {W/m-K}
+  1920.0,!- Density {kg/m3}
+  670.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {74226758-fd9e-400b-8610-04713864b7ce}, !- Handle
   {6c741245-1f77-46ed-b76a-c9c55425e049}; !- Material Name
 
 OS:Material,
-  {689c6f62-e818-4900-947f-df071b534228}, !- Handle
-  concreto_fc250_L15_a0pX,                !- Name
-  MediumRough,                            !- Roughness
-  0.15,                                   !- Thickness {m}
-  1.3,                                    !- Conductivity {W/m-K}
-  1800,                                   !- Density {kg/m3}
-  1000;                                   !- Specific Heat {J/kg-K}
+  {689c6f62-e818-4900-947f-df071b534228},!- Handle
+  concreto_fc250_L15_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.15,!- Thickness {m}
+  1.3,!- Conductivity {W/m-K}
+  1800.0,!- Density {kg/m3}
+  1000.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {e4b43d26-5b2f-48f5-88d6-e7ef4ed675a2}, !- Handle
   {689c6f62-e818-4900-947f-df071b534228}; !- Material Name
 
 OS:Material,
-  {0da4b7d5-e0eb-4088-a4fe-b79303d443c8}, !- Handle
-  concreto_fc150_marmol_L8_a0pX,          !- Name
-  MediumRough,                            !- Roughness
-  0.15,                                   !- Thickness {m}
-  1.3,                                    !- Conductivity {W/m-K}
-  1800,                                   !- Density {kg/m3}
-  1000;                                   !- Specific Heat {J/kg-K}
+  {0da4b7d5-e0eb-4088-a4fe-b79303d443c8},!- Handle
+  concreto_fc150_marmol_L8_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.15,!- Thickness {m}
+  1.3,!- Conductivity {W/m-K}
+  1800.0,!- Density {kg/m3}
+  1000.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {fe5f9486-0a65-4b40-9739-263794091144}, !- Handle
   {0da4b7d5-e0eb-4088-a4fe-b79303d443c8}; !- Material Name
 
 OS:Material,
-  {f2d7c8c0-2676-4822-8fab-1204f6f45bc9}, !- Handle
-  concreto_fc150_L8_a0pX,                 !- Name
-  MediumRough,                            !- Roughness
-  0.08,                                   !- Thickness {m}
-  1.3,                                    !- Conductivity {W/m-K}
-  1800,                                   !- Density {kg/m3}
-  1000;                                   !- Specific Heat {J/kg-K}
+  {f2d7c8c0-2676-4822-8fab-1204f6f45bc9},!- Handle
+  concreto_fc150_L8_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.08,!- Thickness {m}
+  1.3,!- Conductivity {W/m-K}
+  1800.0,!- Density {kg/m3}
+  1000.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {7abd87f7-5dc0-40c1-97fe-5000bcb8b92d}, !- Handle
   {f2d7c8c0-2676-4822-8fab-1204f6f45bc9}; !- Material Name
 
 OS:Material,
-  {b5b80390-3daa-4e82-bb94-d2327bf4f5e0}, !- Handle
-  crest_L1_a0pX,                          !- Name
-  MediumRough,                            !- Roughness
-  0.01,                                   !- Thickness {m}
-  2,                                      !- Conductivity {W/m-K}
-  200,                                    !- Density {kg/m3}
-  500;                                    !- Specific Heat {J/kg-K}
+  {b5b80390-3daa-4e82-bb94-d2327bf4f5e0},!- Handle
+  crest_L1_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.01,!- Thickness {m}
+  2.0,!- Conductivity {W/m-K}
+  200.0,!- Density {kg/m3}
+  500.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {a33e4f28-2ef1-48ac-8473-0189607bb18c}, !- Handle
   {b5b80390-3daa-4e82-bb94-d2327bf4f5e0}; !- Material Name
 
 OS:Material,
-  {5a7c98c3-b38a-4d9f-8df5-5085a28393ac}, !- Handle
-  tabique_hueco_L1_a0pX,                  !- Name
-  MediumRough,                            !- Roughness
-  0.02,                                   !- Thickness {m}
-  1.25,                                   !- Conductivity {W/m-K}
-  1000,                                   !- Density {kg/m3}
-  960,                                    !- Specific Heat {J/kg-K}
-  0.25,                                       !- Thermal Absorptance
-  0.25;                                   !- Solar Absorptance
+  {5a7c98c3-b38a-4d9f-8df5-5085a28393ac},!- Handle
+  tabique_hueco_L1_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.02,!- Thickness {m}
+  1.25,!- Conductivity {W/m-K}
+  1000.0,!- Density {kg/m3}
+  960.0,!- Specific Heat {J/kg-K}
+  0.25,!- Thermal Absorptance
+  0.25;!- Solar Absorptance
 
 OS:StandardsInformation:Material,
   {8eec55a4-1eb7-4541-9946-0b8bb594eb2c}, !- Handle
@@ -9225,13 +9225,13 @@ OS:StandardsInformation:Construction,
   {1bfd5f54-4968-447a-bfa3-a989103e1d42}; !- Construction Name
 
 OS:Material,
-  {f5ed155a-80af-463b-99c4-10e7fd767e53}, !- Handle
-  concreto_fc150_L5_a0pX,                 !- Name
-  MediumRough,                            !- Roughness
-  0.15,                                   !- Thickness {m}
-  1.3,                                    !- Conductivity {W/m-K}
-  1800,                                   !- Density {kg/m3}
-  1000;                                   !- Specific Heat {J/kg-K}
+  {f5ed155a-80af-463b-99c4-10e7fd767e53},!- Handle
+  concreto_fc150_L5_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.15,!- Thickness {m}
+  1.3,!- Conductivity {W/m-K}
+  1800.0,!- Density {kg/m3}
+  1000.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {f11ab220-383e-4431-bfbc-32c9c10025e1}, !- Handle
@@ -9441,13 +9441,13 @@ OS:StandardsInformation:Construction,
   {eb14816f-ca13-48fb-bcee-ff0af85ab847}; !- Construction Name
 
 OS:Material,
-  {b9051bf4-da8e-4a8e-b766-9f94fe1742a9}, !- Handle
-  lana_L6p35_a0p3,                        !- Name
-  Rough,                                  !- Roughness
-  0.0635,                                 !- Thickness {m}
-  0.045,                                  !- Conductivity {W/m-K}
-  10,                                     !- Density {kg/m3}
-  700;                                    !- Specific Heat {J/kg-K}
+  {b9051bf4-da8e-4a8e-b766-9f94fe1742a9},!- Handle
+  lana_L6p35_a0p3,!- Name
+  Rough,!- Roughness
+  0.0635,!- Thickness {m}
+  0.045,!- Conductivity {W/m-K}
+  10.0,!- Density {kg/m3}
+  700.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {62fba6ab-5d36-4c80-9c3d-ea5d34e11f04}, !- Handle
@@ -9478,96 +9478,96 @@ OS:Rendering:Color,
   128;                                    !- Rendering Blue Value
 
 OS:Material,
-  {10ad54b5-a7ef-43b1-8875-e263b5e31599}, !- Handle
-  tabique_hueco_L2_a0pX,                  !- Name
-  MediumRough,                            !- Roughness
-  0.1,                                    !- Thickness {m}
-  0.5144,                                 !- Conductivity {W/m-K}
-  1.29,                                   !- Density {kg/m3}
-  1004;                                   !- Specific Heat {J/kg-K}
+  {10ad54b5-a7ef-43b1-8875-e263b5e31599},!- Handle
+  tabique_hueco_L2_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.1,!- Thickness {m}
+  0.5144,!- Conductivity {W/m-K}
+  1.29,!- Density {kg/m3}
+  1004.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {d1f1d825-e198-4b24-ab22-e4d8c252c6ac}, !- Handle
   {10ad54b5-a7ef-43b1-8875-e263b5e31599}; !- Material Name
 
 OS:Material,
-  {ddba7331-f1d3-4416-ab87-11f06a5d1757}, !- Handle
-  tabique_hueco_L3_a0pX,                  !- Name
-  MediumRough,                            !- Roughness
-  0.02,                                   !- Thickness {m}
-  1.25,                                   !- Conductivity {W/m-K}
-  1000,                                   !- Density {kg/m3}
-  960,                                    !- Specific Heat {J/kg-K}
-  0.25,                                       !- Thermal Absorptance
-  0.25;                                   !- Solar Absorptance
+  {ddba7331-f1d3-4416-ab87-11f06a5d1757},!- Handle
+  tabique_hueco_L3_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.02,!- Thickness {m}
+  1.25,!- Conductivity {W/m-K}
+  1000.0,!- Density {kg/m3}
+  960.0,!- Specific Heat {J/kg-K}
+  0.25,!- Thermal Absorptance
+  0.25;!- Solar Absorptance
 
 OS:StandardsInformation:Material,
   {e90398aa-cd10-4fa6-b0eb-5da594fbd90a}, !- Handle
   {ddba7331-f1d3-4416-ab87-11f06a5d1757}; !- Material Name
 
 OS:Material,
-  {7576ece9-5186-4898-af15-4a43973ad2e0}, !- Handle
-  vermiculita_LX_a0pX,                    !- Name
-  Rough,                                  !- Roughness
-  0.5,                                    !- Thickness {m}
-  0.7,                                    !- Conductivity {W/m-K}
-  1970,                                   !- Density {kg/m3}
-  800;                                    !- Specific Heat {J/kg-K}
+  {7576ece9-5186-4898-af15-4a43973ad2e0},!- Handle
+  vermiculita_LX_a0pX,!- Name
+  Rough,!- Roughness
+  0.5,!- Thickness {m}
+  0.7,!- Conductivity {W/m-K}
+  1970.0,!- Density {kg/m3}
+  800.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {38f95ff0-60ce-49b0-9936-cb7cf5fe46ca}, !- Handle
   {7576ece9-5186-4898-af15-4a43973ad2e0}; !- Material Name
 
 OS:Material,
-  {6ce997c4-dc64-4830-83a0-b75c2f1f22c3}, !- Handle
-  concreto_fc200_L20_a0pX,                !- Name
-  MediumRough,                            !- Roughness
-  0.2,                                    !- Thickness {m}
-  1.3,                                    !- Conductivity {W/m-K}
-  1800,                                   !- Density {kg/m3}
-  1000;                                   !- Specific Heat {J/kg-K}
+  {6ce997c4-dc64-4830-83a0-b75c2f1f22c3},!- Handle
+  concreto_fc200_L20_a0pX,!- Name
+  MediumRough,!- Roughness
+  0.2,!- Thickness {m}
+  1.3,!- Conductivity {W/m-K}
+  1800.0,!- Density {kg/m3}
+  1000.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {2bdd0345-a516-4062-87bf-6bee7c6531e4}, !- Handle
   {6ce997c4-dc64-4830-83a0-b75c2f1f22c3}; !- Material Name
 
 OS:Material,
-  {4335303a-be98-4bf6-9d75-47daa7c83d63}, !- Handle
-  aluminio,                               !- Name
-  Smooth,                                 !- Roughness
-  0.05,                                   !- Thickness {m}
-  225.94,                                 !- Conductivity {W/m-K}
-  2698,                                   !- Density {kg/m3}
-  921;                                    !- Specific Heat {J/kg-K}
+  {4335303a-be98-4bf6-9d75-47daa7c83d63},!- Handle
+  aluminio,!- Name
+  Smooth,!- Roughness
+  0.05,!- Thickness {m}
+  225.94,!- Conductivity {W/m-K}
+  2698.0,!- Density {kg/m3}
+  921.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {5c811cef-5159-4393-b97f-2facaeff7bf1}, !- Handle
   {4335303a-be98-4bf6-9d75-47daa7c83d63}; !- Material Name
 
 OS:Material,
-  {9868efc3-e482-4a62-9e41-a3e110ef1378}, !- Handle
-  Metal Decking,                          !- Name
-  Smooth,                                 !- Roughness
-  0.0015,                                 !- Thickness {m}
-  45.006,                                 !- Conductivity {W/m-K}
-  7680,                                   !- Density {kg/m3}
-  418.4,                                  !- Specific Heat {J/kg-K}
-  ,                                       !- Thermal Absorptance
-  0.6,                                    !- Solar Absorptance
-  0.6;                                    !- Visible Absorptance
+  {9868efc3-e482-4a62-9e41-a3e110ef1378},!- Handle
+  Metal Decking,!- Name
+  Smooth,!- Roughness
+  0.0015,!- Thickness {m}
+  45.006,!- Conductivity {W/m-K}
+  7680.0,!- Density {kg/m3}
+  418.4,!- Specific Heat {J/kg-K}
+  ,!- Thermal Absorptance
+  0.6,!- Solar Absorptance
+  0.6;!- Visible Absorptance
 
 OS:StandardsInformation:Material,
   {7b0567b3-1ec8-48a5-a2de-adeaa894b78a}, !- Handle
   {9868efc3-e482-4a62-9e41-a3e110ef1378}; !- Material Name
 
 OS:Material,
-  {ab80d268-8bfc-479a-874e-4b95e61f43b1}, !- Handle
-  fachaleta_L1_a0p7,                      !- Name
-  Smooth,                                 !- Roughness
-  0.01,                                   !- Thickness {m}
-  0.7,                                    !- Conductivity {W/m-K}
-  1970,                                   !- Density {kg/m3}
-  100;                                    !- Specific Heat {J/kg-K}
+  {ab80d268-8bfc-479a-874e-4b95e61f43b1},!- Handle
+  fachaleta_L1_a0p7,!- Name
+  Smooth,!- Roughness
+  0.01,!- Thickness {m}
+  0.7,!- Conductivity {W/m-K}
+  1970.0,!- Density {kg/m3}
+  100.0;!- Specific Heat {J/kg-K}
 
 OS:StandardsInformation:Material,
   {f0e6cd57-d216-44c7-9620-b2662ce9aee1}, !- Handle
@@ -9777,16 +9777,16 @@ OS:StandardsInformation:Construction,
   {9baa8a73-dc2a-4c5b-a8c9-ebbdd95a5c50}; !- Construction Name
 
 OS:Material,
-  {16e9d82a-8745-4b32-8771-c854373e6417}, !- Handle
-  F16 Acoustic tile,                      !- Name
-  MediumSmooth,                           !- Roughness
-  0.0191,                                 !- Thickness {m}
-  0.06,                                   !- Conductivity {W/m-K}
-  368,                                    !- Density {kg/m3}
-  590.000000000002,                       !- Specific Heat {J/kg-K}
-  0.9,                                    !- Thermal Absorptance
-  0.3,                                    !- Solar Absorptance
-  0.3;                                    !- Visible Absorptance
+  {16e9d82a-8745-4b32-8771-c854373e6417},!- Handle
+  F16 Acoustic tile,!- Name
+  MediumSmooth,!- Roughness
+  0.0191,!- Thickness {m}
+  0.06,!- Conductivity {W/m-K}
+  368.0,!- Density {kg/m3}
+  590.000000000002,!- Specific Heat {J/kg-K}
+  0.9,!- Thermal Absorptance
+  0.3,!- Solar Absorptance
+  0.3;!- Visible Absorptance
 
 OS:StandardsInformation:Material,
   {f260596d-cc6e-47d2-b61d-befcb35698a8}, !- Handle
