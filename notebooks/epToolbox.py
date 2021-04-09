@@ -1,15 +1,35 @@
 from pandas import *
 from datetime import timedelta
 from io import open
-
+import json
 import pandas as pd
 
+    
+def exportMaterials(filename, materials):
+    br = open(filename, "r")
+    osm = br.readlines()
+    br.close()
+    i = 0
+    while (i < len(osm)):
+        if("OS:Material," in osm[i]):
+            material = materials.loc[osm[i+2].split(',')[0][2:]]
+            setOsmObject(osm, i, material)
+        i += 1
+    br = open(filename, "w")
+    for line in osm:
+        br.write(line)
+    br.close()
+    return True
+
+    
+        
 def importMaterials(filename):
     br = open(filename, "r")
     osm = br.readlines()
     i = 0
     materials = []
     materiales = {}   # este es el nuevo diccionario que ir'a creciendo
+#     osm_sin = open
     while (i < len(osm)):
         if("OS:Material," in osm[i]):
             i, material,nuevo = getOsmObject(osm, i)  # ahora regresa tres argumentos, el tercero el dic
@@ -90,21 +110,4 @@ def setOsmObject(list, index, object):
             sep = ';'
         list[index] = "  " + str(value) + sep + "!- " + name + "\n"
         index += 1
-    return True
-
-    
-def exportMaterials(filename, materials):
-    br = open(filename, "r")
-    osm = br.readlines()
-    br.close()
-    i = 0
-    while (i < len(osm)):
-        if("OS:Material," in osm[i]):
-            material = materials.loc[osm[i+2].split(',')[0][2:]]
-            setOsmObject(osm, i, material)
-        i += 1
-    br = open(filename, "w")
-    for line in osm:
-        br.write(line)
-    br.close()
     return True
