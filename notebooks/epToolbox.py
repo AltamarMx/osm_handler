@@ -9,18 +9,18 @@ def importMaterials(filename):
     osm = br.readlines()
     i = 0
     materials = []
-    materiales = {}
+    materiales = {}   # este es el nuevo diccionario que ir'a creciendo
     while (i < len(osm)):
         if("OS:Material," in osm[i]):
-            i, material,nuevo = getOsmObject(osm, i)
-            materiales.update(nuevo)
+            i, material,nuevo = getOsmObject(osm, i)  # ahora regresa tres argumentos, el tercero el dic
+            materiales.update(nuevo)  #actualiza el diccionario materiales con el nuevo encontrado
 #             print(nuevo)
             materials.append(material)
         i += 1
     br.close()
     materials = pd.DataFrame(materials)
     materials.index = materials["Name"]
-    return materials,materiales 
+    return materials,materiales   # regresa ahora el diccionario materiales
 
 def getOsmObject(list, index):
     object = {}
@@ -36,12 +36,9 @@ def getOsmObject(list, index):
 
         object[name] = getValue(list[index].split(sep)[0][2:])
         index += 1
-#     print(object["Name"])
-    nombre = object["Name"]
-#     del object["Name"]
-    nuevo_dic = {nombre:object}
-#     print(nuevo_dic)
-    return index, object,nuevo_dic
+    nombre = object["Name"]  #extrae el nombre del material para definir diccionario
+    nuevo_dic = {nombre:object}  # crea nuevo diccionario con el nombre del material
+    return index, object,nuevo_dic  # regresa nuevo diccionario
 
 def getValue(strvalue):
     try:
