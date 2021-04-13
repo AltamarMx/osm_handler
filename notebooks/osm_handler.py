@@ -134,6 +134,18 @@ def get_dictionary_material(file):
 #     if kind=="list":
     return diccionario
 def load_dict(file):
+    '''Returns a dictionary loaded from JSON file
+    Parameters
+    ----------
+    file : File handle to OPEN json file
+    with the dictionary.
+    
+    Returns
+    -------
+    dictionary 
+        dictionary containing the JSON file of the OSM file
+
+    '''
     with open(file) as json_file:
         dictionary = json.load(json_file)
     return dictionary
@@ -162,6 +174,17 @@ def save_material_osm(file,new_dict):
     save_rest_osm(objeto_archivo,file="material.osm")
     
 def save_osm(file_osm,diccionario,new_osm):
+    '''
+    Remove materiales from file_osm and writes diccionario to new_osm file.
+
+    Parameters
+    ----------
+    file_osm    : Original osm to extract materials contained
+    diccionario : Materials dictionary to be added to new_osm
+    new_osm     : Path and name for new OSM with diccionario included as materials
+    
+    '''
+
     resto_osm = separate_osm(file_osm)
     save_rest_osm(resto_osm)
     save_material_osm("material.osm",diccionario)
