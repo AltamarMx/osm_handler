@@ -32,6 +32,14 @@ def open_osm(file):
     return osm
     
 def save_dict(file,dictionary):
+    '''Write object to a JSON  file.
+    Parameters
+    ----------
+    file : str or file handle to save json file
+    with the dictionary.
+    dictionary  : Python dictionary obtained with get_dictionary_material
+
+    '''
     archivo = open(file, "w")
     json.dump(dictionary,archivo,indent=2)
     print("saved:",file)
@@ -42,7 +50,19 @@ def read_osm(file):
     osm = tmp.readlines()
     return osm
 
-def get_dictionary_material(file,kind="dict"):
+def get_dictionary_material(file):
+    '''Returns a dictionary containing the materials from the OSM file given
+    
+    Parameters
+    ----------
+    file : str
+            The file location of the OSM file 
+    Returns
+    -------
+    dictionary 
+        dictionary containing the materials of the OSM file
+    
+    '''
     osm = open_osm(file)
     OSM_OBJETO = "OS:Material,\n"
     # identifica donde inicia un objeto y donde 
@@ -109,10 +129,10 @@ def get_dictionary_material(file,kind="dict"):
             tmp.update({nombre:valor})
         diccionario.update({nombre_objeto:tmp})
 # diccionario
-    if kind=="dict":
-        return diccionario
-    if kind=="list":
-        return lista_objetos
+#     if kind=="dict":
+#         return diccionario
+#     if kind=="list":
+    return diccionario
 def load_dict(file):
     with open(file) as json_file:
         dictionary = json.load(json_file)
