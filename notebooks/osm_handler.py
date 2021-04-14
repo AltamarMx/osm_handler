@@ -154,9 +154,9 @@ def load_dict(file):
 def save_material_osm(file,new_dict):
     objeto_archivo = []
     lista = ["Handle","Name","Roughness","Thickness {m}",
-            "Density {kg/m3}","Specific Heat {J/kg-K}",
-            "Thermal Absorptance","Solar Absorptance",
-            "Visible Absorptance"]
+             "Conductivity {W/m-K}","Density {kg/m3}",
+             "Specific Heat {J/kg-K}","Thermal Absorptance",
+             "Solar Absorptance","Visible Absorptance"]
     for objeto in new_dict:
         cadena1 ="OS:Material,\n"
         objeto_archivo.append(cadena1)
@@ -166,7 +166,8 @@ def save_material_osm(file,new_dict):
             cadena2 ="  " + str(new_dict[objeto][propiedad])+",!- "+str(propiedad+"\n")
             objeto_archivo.append(cadena2)
 
-        cadena3 ="  " + str(new_dict[objeto][lista[-1]])+";!- "+str("Visible Absorptace")
+#         cadena3 ="  " + str(new_dict[objeto][lista[-1]])+";!- "+str("Visible Absorptance")
+        cadena3 ="  " + str(new_dict[objeto]["Visible Absorptance"])+";!- "+str("Visible Absorptance")
     #     print(lista[-1])
         objeto_archivo.append(cadena3)
         objeto_archivo.append("\n")
