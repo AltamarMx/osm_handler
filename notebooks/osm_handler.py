@@ -26,10 +26,28 @@ def save_rest_osm(lista,file="rest.osm"):
 #                 print(campo)
                 f.write(campo)
     print("saved:",file)
-def open_osm(file): 
+    
+def open_osm(file):
+    """
+    Copy all lines in OSM file to a list with markers of the OSM objects inside the file
+        
+    Parameters:
+        :param file -- path of the file to copy         
+
+    Returns:
+        :return: osm -- list with all osm lines of the file.
+        :return: osm_obj_list -- list with all type of objects inside the file
+    """
+    osm_obj_list = []
     archivo = open(file,"r")
     osm = archivo.readlines()
-    return osm
+    for line in osm:
+        if line.startswith("OS:"):
+            line = line.split(":")[1]
+            osm_object = line.split(",")[0]
+        if osm_object not in osm_obj_list:
+            osm_obj_list.append(osm_object)
+    return osm, osm_obj_list
     
 def save_dict(file,dictionary):
     '''Write object to a JSON  file.
@@ -50,7 +68,7 @@ def read_osm(file):
     osm = tmp.readlines()
     return osm
 
-def get_dictionary_material(file):
+def get_dictionary_from_OSMobject(file, OSM_name):
     '''Returns a dictionary containing the materials from the OSM file given
     
     Parameters
@@ -64,7 +82,7 @@ def get_dictionary_material(file):
     
     '''
     osm = open_osm(file)
-    OSM_OBJETO = "OS:Material,\n"
+    OSM_name = "OS:" + OSM_name + ",\n"
     # identifica donde inicia un objeto y donde 
     # termina, y los pone en una lista    
     objeto = []
@@ -83,7 +101,7 @@ def get_dictionary_material(file):
     resto_lista  = []
     for objeto in osm_lista:
 #         print(objeto)
-        if OSM_OBJETO in objeto:
+        if OSM_name in objeto:
             objeto_lista.append(objeto)
         else:
 #             print(objeto)
@@ -133,6 +151,7 @@ def get_dictionary_material(file):
 #         return diccionario
 #     if kind=="list":
     return diccionario
+    
 def load_dict(file):
     '''Returns a dictionary loaded from JSON file
     Parameters
@@ -151,14 +170,17 @@ def load_dict(file):
     return dictionary
 
     
-def save_material_osm(file,new_dict):
+def save_OSMobject_from_dict(file, new_dict, OSM_object):
     objeto_archivo = []
+    #
+    # Por modificar para generalizar a cualquier objeto OSM
     lista = ["Handle","Name","Roughness","Thickness {m}",
              "Conductivity {W/m-K}","Density {kg/m3}",
              "Specific Heat {J/kg-K}","Thermal Absorptance",
              "Solar Absorptance","Visible Absorptance"]
+    #
     for objeto in new_dict:
-        cadena1 ="OS:Material,\n"
+        cadena1 ="OS:" + OSM_object + ",\n"
         objeto_archivo.append(cadena1)
         lista2 = lista[:-1]
         for propiedad in lista2:
@@ -176,7 +198,7 @@ def save_material_osm(file,new_dict):
     
 def save_osm(file_osm,diccionario,new_osm):
     '''
-    Remove materiales from file_osm and writes diccionario to new_osm file.
+    Remove materiales from file_osm and writes dictionary to new_osm file.
 
     Parameters
     ----------
@@ -192,9 +214,6 @@ def save_osm(file_osm,diccionario,new_osm):
     update_osm("rest.osm","material.osm",new_osm)
     
 #     return resto_osm
-
-
-
 
 def separate_osm(file):
     osm = open_osm(file)
