@@ -1,14 +1,14 @@
 OS:Material,
   {2e7157dc-32c2-44e3-9415-7874ececbba9},!- Handle
   concreto_fc150_granzon_L8_a0pX,!- Name
-  Smooth,!- Roughness
-  0.7,!- Thickness {m}
-  1.5,!- Conductivity {W/m-K}
-  2500,!- Density {kg/m3}
-  2000,!- Specific Heat {J/kg-K}
-  0.2,!- Thermal Absorptance
+  MediumRough,!- Roughness
+  0.15,!- Thickness {m}
+  1.3,!- Conductivity {W/m-K}
+  1800.0,!- Density {kg/m3}
+  1000.0,!- Specific Heat {J/kg-K}
+  0.8,!- Thermal Absorptance
   0.3,!- Solar Absorptance
-  0.4;!- Visible Absorptance
+  1.0;!- Visible Absorptance
 
 OS:Material,
   {acc9b317-088e-4fa3-a849-9aec59e11271},!- Handle
@@ -20,7 +20,7 @@ OS:Material,
   1000.0,!- Specific Heat {J/kg-K}
   ,!- Thermal Absorptance
   0.5,!- Solar Absorptance
-  0.7;!- Visible Absorptance
+  0.5;!- Visible Absorptance
 
 OS:Material,
   {fe21d530-02b9-4f7e-8369-6955e97efd5a},!- Handle
@@ -32,7 +32,7 @@ OS:Material,
   1000.0,!- Specific Heat {J/kg-K}
   0.8,!- Thermal Absorptance
   0.3,!- Solar Absorptance
-  0.7;!- Visible Absorptance
+  0.3;!- Visible Absorptance
 
 OS:Material,
   {8f09ab24-4c76-41a0-aafb-911a9de403f8},!- Handle
@@ -44,7 +44,7 @@ OS:Material,
   1210.0,!- Specific Heat {J/kg-K}
   0.8,!- Thermal Absorptance
   0.3,!- Solar Absorptance
-  0.7;!- Visible Absorptance
+  -1.0;!- Visible Absorptance
 
 OS:Material,
   {9c0ea449-48e9-4c01-b8c0-5a414bb4b01c},!- Handle
@@ -56,7 +56,7 @@ OS:Material,
   879.0,!- Specific Heat {J/kg-K}
   ,!- Thermal Absorptance
   0.5,!- Solar Absorptance
-  0.7;!- Visible Absorptance
+  0.5;!- Visible Absorptance
 
 OS:Material,
   {5cd569c2-f644-4e8f-9141-bf790450e27a},!- Handle
@@ -68,7 +68,7 @@ OS:Material,
   1000.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.5,!- Solar Absorptance
-  0.7;!- Visible Absorptance
+  0.5;!- Visible Absorptance
 
 OS:Material,
   {da0ae925-c712-45dc-a93f-babc664e7911},!- Handle
@@ -77,7 +77,7 @@ OS:Material,
   0.01,!- Thickness {m}
   1.0,!- Conductivity {W/m-K}
   1800.0,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  1000.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -89,7 +89,7 @@ OS:Material,
   0.01,!- Thickness {m}
   2.2,!- Conductivity {W/m-K}
   260.0,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  750.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -125,7 +125,7 @@ OS:Material,
   0.15,!- Thickness {m}
   1.3,!- Conductivity {W/m-K}
   1800.0,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  1000.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -137,7 +137,7 @@ OS:Material,
   0.0127,!- Thickness {m}
   0.029,!- Conductivity {W/m-K}
   1920.0,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  670.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -149,7 +149,7 @@ OS:Material,
   0.15,!- Thickness {m}
   1.3,!- Conductivity {W/m-K}
   1800.0,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  1000.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -161,7 +161,7 @@ OS:Material,
   0.15,!- Thickness {m}
   1.3,!- Conductivity {W/m-K}
   1800.0,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  1000.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -173,7 +173,7 @@ OS:Material,
   0.08,!- Thickness {m}
   1.3,!- Conductivity {W/m-K}
   1800.0,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  1000.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -185,7 +185,7 @@ OS:Material,
   0.01,!- Thickness {m}
   2.0,!- Conductivity {W/m-K}
   200.0,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  500.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -199,7 +199,7 @@ OS:Material,
   1000.0,!- Density {kg/m3}
   960.0,!- Specific Heat {J/kg-K}
   0.25,!- Thermal Absorptance
-  0.7,!- Solar Absorptance
+  0.25,!- Solar Absorptance
   0.7;!- Visible Absorptance
 
 OS:Material,
@@ -209,7 +209,7 @@ OS:Material,
   0.15,!- Thickness {m}
   1.3,!- Conductivity {W/m-K}
   1800.0,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  1000.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -221,7 +221,7 @@ OS:Material,
   0.0635,!- Thickness {m}
   0.045,!- Conductivity {W/m-K}
   10.0,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  700.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -233,7 +233,7 @@ OS:Material,
   0.1,!- Thickness {m}
   0.5144,!- Conductivity {W/m-K}
   1.29,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  1004.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -247,7 +247,7 @@ OS:Material,
   1000.0,!- Density {kg/m3}
   960.0,!- Specific Heat {J/kg-K}
   0.25,!- Thermal Absorptance
-  0.7,!- Solar Absorptance
+  0.25,!- Solar Absorptance
   0.7;!- Visible Absorptance
 
 OS:Material,
@@ -257,7 +257,7 @@ OS:Material,
   0.5,!- Thickness {m}
   0.7,!- Conductivity {W/m-K}
   1970.0,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  800.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -269,7 +269,7 @@ OS:Material,
   0.2,!- Thickness {m}
   1.3,!- Conductivity {W/m-K}
   1800.0,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  1000.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -281,7 +281,7 @@ OS:Material,
   0.05,!- Thickness {m}
   225.94,!- Conductivity {W/m-K}
   2698.0,!- Density {kg/m3}
-  100.0,!- Specific Heat {J/kg-K}
+  921.0,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.7,!- Solar Absorptance
   0.7;!- Visible Absorptance
@@ -296,7 +296,7 @@ OS:Material,
   418.4,!- Specific Heat {J/kg-K}
   ,!- Thermal Absorptance
   0.6,!- Solar Absorptance
-  0.7;!- Visible Absorptance
+  0.6;!- Visible Absorptance
 
 OS:Material,
   {ab80d268-8bfc-479a-874e-4b95e61f43b1},!- Handle
@@ -320,5 +320,5 @@ OS:Material,
   590.000000000002,!- Specific Heat {J/kg-K}
   0.9,!- Thermal Absorptance
   0.3,!- Solar Absorptance
-  0.7;!- Visible Absorptance
+  0.3;!- Visible Absorptance
 

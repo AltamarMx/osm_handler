@@ -1,0 +1,14 @@
+{
+  "madera_L2p2_a0pX": {
+    "Name": "madera_L2p2_a0pX",
+    "Roughness": "Smooth",
+    "Thickness {m}": 0.02,
+    "Conductivity {W/m-K}": 0.14,
+    "Density {kg/m3}": 600.0,
+    "Specific Heat {J/kg-K}": 1210.0,
+    "Thermal Absorptance": 0.8,
+    "Solar Absorptance": 0.3,
+    "Visible Absorptance": -1.0,
+    "Comments": "Puse un valor irreal de absortancia"
+  }
+}
