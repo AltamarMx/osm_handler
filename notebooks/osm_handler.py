@@ -63,6 +63,7 @@ def get_dictionary_material(file):
         dictionary containing the materials of the OSM file
     
     '''
+    print("hola mundo cruel")
     osm = open_osm(file)
     OSM_OBJETO = "OS:Material,\n"
     # identifica donde inicia un objeto y donde 
