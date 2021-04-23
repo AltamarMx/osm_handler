@@ -44,7 +44,7 @@
     "Specific Heat {J/kg-K}": 1210.0,
     "Thermal Absorptance": 0.8,
     "Solar Absorptance": 0.3,
-    "Visible Absorptance": -1.0,
+    "Visible Absorptance": 0.3,
     "Comments": ""
   },
   "marmol_L2_a0pX": {

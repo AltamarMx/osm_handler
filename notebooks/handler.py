@@ -214,7 +214,7 @@ def __merge_osm(new_file,file1="tmp.osm",file2="tmp2.osm"):
         fp.write(data1)
     print("saved file:",new_file)   
     
-def update_osm(osm_file,new_dict):
+def update_osm(osm_file,new_dict,delete=True,new_file="actualizado.osm"):
     osm      = __open_osm(osm_file)
     osm_list = __objects_to_list(osm)
     object_list, rest_list  = __separate_objects_rest(osm_list)
@@ -224,7 +224,12 @@ def update_osm(osm_file,new_dict):
     diccionario = update_dict(diccionario,new_dict)
     __save_rest_osm(rest_list)
     __save_dict_osm(diccionario)
-    __merge_osm("prueba.osm")
+    __merge_osm(new_file)
+    if delete:
+        os.remove("tmp.osm")
+        os.remove("tmp2.osm")
+        print("archivos tmp.osm y tmp2.osm borrados\n")
+        
     
     
     
