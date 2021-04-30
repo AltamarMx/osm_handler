@@ -8,8 +8,8 @@
     "Specific Heat {J/kg-K}": 1210.0,
     "Thermal Absorptance": 0.8,
     "Solar Absorptance": 0.3,
-    "Visible Absorptance": 0.89,
-    "Comments": "Puse un valor irreal de absortancia"
+    "Visible Absorptance": 0.3,
+    "Comments": ""
   },
   "concreto_fc250_L200_a50": {
     "Name": "concreto_fc250_L200_a50",
