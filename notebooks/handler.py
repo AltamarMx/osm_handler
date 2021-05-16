@@ -1,6 +1,7 @@
 import pandas as pd
 from io import open
-import json as json
+#2021/06/16 eapuertoc: Si no se pone un alias no es necesario el "as json"
+import json
 import re
 import numpy as np
 import pickle
@@ -52,9 +53,21 @@ def __objects_to_list(osm):
     return objects_in_lists, objType_list 
 
         
-def __separate_objects_rest(osm_list):
-
-    OSM_OBJETO = "OS:Material,\n"
+def __separate_objects_rest(osm_list, objKey):
+    #2021/06/16 eapuertoc: Acá se cambia para que separe cualquier objeto basado en el nombre clave
+    """Create two lists based on an osm list: one with the object key and other with the rest ones
+    
+    Parameters:
+    -----------
+    osm_file -- File with OSM format
+    objKey -- Key of the reference object to separate
+    
+    Returns:
+    --------
+    object_list -- list with the elements of the object extracted
+    rest_list -- list with the rest of the elements
+    """
+    OSM_OBJETO = "OS:" + objKey + ",\n"
     object_list = []
     rest_list   = []
     for objeto in osm_list:
@@ -81,50 +94,50 @@ def __clean_objects(object_list):
 #     print(object_list_cleaned[0])
     return(object_list_cleaned)
  
-def __create_dictionary_materials(object_list_cleaned):
+def __create_dictionary(object_list_cleaned, objKey):
+    #2021/06/16 eapuertoc: Ajuste temporal, es necesario pensar en un archivo de validación para generalizar el programa
     diccionario = {}
     for objeto in object_list_cleaned:
-        nombre_objeto,_ = objeto[2].split(",")
-#         print("nombre",len(nombre_objeto),nombre_objeto)
-        tmp = {
-               "Handle":"texto",
-               "Name":"nombre",
-               "Roughness":"MediumRough",
-               "Thickness {m}":0.1,
-               "Conductivity {W/m-K}":0.1,
-               "Density {kg/m3}":0.1,
-               "Specific Heat {J/kg-K}":100.,
-               "Thermal Absorptance":0.9,
-               "Solar Absorptance":0.7,
-               "Visible Absorptance":0.7,
-               "Comments":""}
-#         print(objeto)
-        for propiedad in range(1,len(objeto)-1):
-#             print(propiedad)
-            valor,nombre = objeto[propiedad].split(",")
-            valor = valor.strip()
+        #2021/06/16 eapuertoc: Temporalmente el código sólo trabaja con la clave "Material"
+        if (objKey == "Material"):
+            nombre_objeto,_ = objeto[2].split(",")
+#           print("nombre",len(nombre_objeto),nombre_objeto)
+            tmp = {
+                "Handle":"texto",
+                "Name":"nombre",
+                "Roughness":"MediumRough",
+                "Thickness {m}":0.1,
+                "Conductivity {W/m-K}":0.1,
+                "Density {kg/m3}":0.1,
+                "Specific Heat {J/kg-K}":100.,
+                "Thermal Absorptance":0.9,
+                "Solar Absorptance":0.7,
+                "Visible Absorptance":0.7,
+                "Comments":""}
+                #print(objeto)
+            for propiedad in range(1,len(objeto)-1):
+                #print(propiedad)
+                valor,nombre = objeto[propiedad].split(",")
+                valor = valor.strip()
+                nombre = nombre.strip()
+                #print("valor",valor)
+                #print("nombre",nombre)
+                try:
+                    valor = float(valor)
+                except:
+                    pass
+                tmp.update({nombre:valor})
+            #print(valor,nombre)
+            valor,nombre = objeto[-1].split(";")
+            valor  = valor.strip()
             nombre = nombre.strip()
-#             print("valor",valor)
-#             print("nombre",nombre)
             try:
                 valor = float(valor)
             except:
                 pass
             tmp.update({nombre:valor})
-#             print(valor,nombre)
-        valor,nombre = objeto[-1].split(";")
-        valor  = valor.strip()
-        nombre = nombre.strip()
-        try:
-            valor = float(valor)
-        except:
-            pass
-        tmp.update({nombre:valor})
-        diccionario.update({nombre_objeto:tmp})
-        
-#     Borra el Handle antes de entregar el diccionario
-    
-        
+            diccionario.update({nombre_objeto:tmp}) 
+            #Borra el Handle antes de entregar el diccionario
     return diccionario
 
 
@@ -153,12 +166,14 @@ def save_dict(file,dictionary, handle=False):
         archivo.close()
 
 
-def load_dict(file, format="json"):
+def load_dict(file, format="json", objKey=""):
+    #2021/06/16 eapuertoc: Se extiende el uso para cargar dictionary de cualquier objeto y de archivos epJSON
     """Returns a dictionary loaded from JSON file
     Parameters:
     ----------
     file -- File handle to OPEN json file with the dictionary.
     format -- Indicates the format of the file loaded
+    objKey -- Key of a specified object to extract
     
     Returns:
     -------
@@ -168,13 +183,20 @@ def load_dict(file, format="json"):
     if (format == "json"):
         with open(file) as json_file:
             dictionary = json.load(json_file)
+    elif (format == "epjson"):
+        with open(file) as json_file:
+            if (objKey == ""):
+                dictionary = json.load(json_file)
+            else:
+                dictionary = json.load(json_file)[objKey]
     elif (format == "osm"):
         osm      = __open_osm(file)
         osm_list = __objects_to_list(osm)[0]
-        object_list, rest_list  = __separate_objects_rest(osm_list)
-        object_list = __clean_objects(object_list)
-  #     rest_list   = __clean_objects(rest_list)
-        dictionary = __create_dictionary_materials(object_list)
+        if (objKey != ""):
+            object_list, rest_list  = __separate_objects_rest(osm_list, objKey)
+            object_list = __clean_objects(object_list)
+            #rest_list   = __clean_objects(rest_list)
+            dictionary = __create_dictionary(object_list, objKey)
     return dictionary
 
 def update_dict(old_dict, new_dict):
@@ -197,15 +219,7 @@ def __save_rest_osm(lista,file="tmp.osm"):
 #                 print(campo)
                 f.write(campo)
     print("saved:",file)
-    
-    
-    
-def open_osm(file): 
-    archivo = open(file,"r")
-    osm = archivo.readlines()
-    return osm
 
- 
 def __save_dict_osm(new_dict):
 #     print(type(new_dict))
     objeto_archivo = []
@@ -247,13 +261,13 @@ def __merge_osm(new_file,file1="tmp.osm",file2="tmp2.osm"):
         fp.write(data1)
     print("saved file:",new_file)   
     
-def update_osm(osm_file,new_dict,delete=True,new_file="actualizado.osm"):
+def update_osm(osm_file,new_dict,delete=True,new_file="actualizado.osm", objKey=""):
     osm      = __open_osm(osm_file)
     osm_list = __objects_to_list(osm)[0]
-    object_list, rest_list  = __separate_objects_rest(osm_list)
+    object_list, rest_list  = __separate_objects_rest(osm_list, objKey)
     object_list = __clean_objects(object_list)
 #     rest_list   = __clean_objects(rest_list)
-    diccionario = __create_dictionary_materials(object_list)
+    diccionario = __create_dictionary(object_list, objKey)
     diccionario = update_dict(diccionario,new_dict)
     __save_rest_osm(rest_list)
     __save_dict_osm(diccionario)
