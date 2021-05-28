@@ -1,0 +1,1641 @@
+!-Generator IDFEditor 1.51
+!-Option SortedOrder
+
+!-NOTE: All comments with '!-' are ignored by the IDFEditor and are generated automatically.
+!-      Use '!' comments if they need to be retained when using the IDFEditor.
+
+
+!-   ===========  ALL OBJECTS IN CLASS: VERSION ===========
+
+Version,
+    9.3;                     !- Version Identifier
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SCHEDULETYPELIMITS ===========
+
+ScheduleTypeLimits,
+    Fraction,                !- Name
+    0,                       !- Lower Limit Value
+    1,                       !- Upper Limit Value
+    Continuous,              !- Numeric Type
+    Dimensionless;           !- Unit Type
+
+ScheduleTypeLimits,
+    ActivityLevel,           !- Name
+    0,                       !- Lower Limit Value
+    300,                     !- Upper Limit Value
+    Continuous,              !- Numeric Type
+    ActivityLevel;           !- Unit Type
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SCHEDULE:COMPACT ===========
+
+Schedule:Compact,
+    OccAdmonGeneral,         !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Weekdays,           !- Field 6
+    Until: 9:00,             !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 15:00,            !- Field 11
+    0,                       !- Field 12
+    Until: 19:00,            !- Field 13
+    1,                       !- Field 14
+    Until: 24:00,            !- Field 15
+    0,                       !- Field 16
+    For: AllOtherDays,       !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 04/04,          !- Field 20
+    For: AllDays,            !- Field 21
+    Until: 24:00,            !- Field 22
+    0,                       !- Field 23
+    Through: 07/04,          !- Field 24
+    For: WeekDays,           !- Field 25
+    Until: 9:00,             !- Field 26
+    0,                       !- Field 27
+    Until: 14:00,            !- Field 28
+    1,                       !- Field 29
+    Until: 15:00,            !- Field 30
+    0,                       !- Field 31
+    Until: 19:00,            !- Field 32
+    1,                       !- Field 33
+    Until: 24:00,            !- Field 34
+    0,                       !- Field 35
+    For: AllOtherDays,       !- Field 36
+    Until: 24:00,            !- Field 37
+    0,                       !- Field 38
+    Through: 07/25,          !- Field 39
+    For: AllDays,            !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    Through: 12/19,          !- Field 43
+    For: WeekDays,           !- Field 44
+    Until: 9:00,             !- Field 45
+    0,                       !- Field 46
+    Until: 14:00,            !- Field 47
+    1,                       !- Field 48
+    Until: 15:00,            !- Field 49
+    0,                       !- Field 50
+    Until: 19:00,            !- Field 51
+    1,                       !- Field 52
+    Until: 24:00,            !- Field 53
+    0,                       !- Field 54
+    For: AllOtherDays,       !- Field 55
+    Until: 24:00,            !- Field 56
+    0,                       !- Field 57
+    Through: 12/31,          !- Field 58
+    For: AllDays,            !- Field 59
+    Until: 24:00,            !- Field 60
+    0;                       !- Field 61
+
+Schedule:Compact,
+    OccPBCoorCOFI,           !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Weekdays,           !- Field 6
+    Until: 9:00,             !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: AllOtherDays,       !- Field 13
+    Until: 24:00,            !- Field 14
+    0,                       !- Field 15
+    Through: 04/04,          !- Field 16
+    For: AllDays,            !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 07/04,          !- Field 20
+    For: Weekdays,           !- Field 21
+    Until: 9:00,             !- Field 22
+    0,                       !- Field 23
+    Until: 14:00,            !- Field 24
+    1,                       !- Field 25
+    Until: 24:00,            !- Field 26
+    0,                       !- Field 27
+    For: AllOtherDays,       !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    Through: 07/25,          !- Field 31
+    For: AllDays,            !- Field 32
+    Until: 24:00,            !- Field 33
+    0,                       !- Field 34
+    Through: 12/19,          !- Field 35
+    For: Weekdays,           !- Field 36
+    Until: 9:00,             !- Field 37
+    0,                       !- Field 38
+    Until: 14:00,            !- Field 39
+    1,                       !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    For: AllOtherDays,       !- Field 43
+    Until: 24:00,            !- Field 44
+    0,                       !- Field 45
+    Through: 12/31,          !- Field 46
+    For: AllDays,            !- Field 47
+    Until: 24:00,            !- Field 48
+    0;                       !- Field 49
+
+Schedule:Compact,
+    OccPBVestibulo,          !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Weekdays,           !- Field 6
+    Until: 15:00,            !- Field 7
+    0,                       !- Field 8
+    Until: 19:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: AllOtherDays,       !- Field 13
+    Until: 24:00,            !- Field 14
+    0,                       !- Field 15
+    Through: 04/04,          !- Field 16
+    For: AllDays,            !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 07/04,          !- Field 20
+    For: Weekdays,           !- Field 21
+    Until: 15:00,            !- Field 22
+    0,                       !- Field 23
+    Until: 19:00,            !- Field 24
+    1,                       !- Field 25
+    Until: 24:00,            !- Field 26
+    0,                       !- Field 27
+    For: AllOtherDays,       !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    Through: 07/25,          !- Field 31
+    For: AllDays,            !- Field 32
+    Until: 24:00,            !- Field 33
+    0,                       !- Field 34
+    Through: 12/19,          !- Field 35
+    For: Weekdays,           !- Field 36
+    Until: 15:00,            !- Field 37
+    0,                       !- Field 38
+    Until: 19:00,            !- Field 39
+    1,                       !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    For: AllOtherDays,       !- Field 43
+    Until: 24:00,            !- Field 44
+    0,                       !- Field 45
+    Through: 12/31,          !- Field 46
+    For: AllDays,            !- Field 47
+    Until: 24:00,            !- Field 48
+    0;                       !- Field 49
+
+Schedule:Compact,
+    OccPBAdmAdministrativo,  !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Weekdays,           !- Field 6
+    Until: 9:00,             !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 15:00,            !- Field 11
+    0,                       !- Field 12
+    Until: 18:00,            !- Field 13
+    1,                       !- Field 14
+    Until: 24:00,            !- Field 15
+    0,                       !- Field 16
+    For: AllOtherDays,       !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 04/04,          !- Field 20
+    For: AllDays,            !- Field 21
+    Until: 24:00,            !- Field 22
+    0,                       !- Field 23
+    Through: 07/04,          !- Field 24
+    For: WeekDays,           !- Field 25
+    Until: 9:00,             !- Field 26
+    0,                       !- Field 27
+    Until: 14:00,            !- Field 28
+    1,                       !- Field 29
+    Until: 15:00,            !- Field 30
+    0,                       !- Field 31
+    Until: 18:00,            !- Field 32
+    1,                       !- Field 33
+    Until: 24:00,            !- Field 34
+    0,                       !- Field 35
+    For: AllOtherDays,       !- Field 36
+    Until: 24:00,            !- Field 37
+    0,                       !- Field 38
+    Through: 07/25,          !- Field 39
+    For: AllDays,            !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    Through: 12/19,          !- Field 43
+    For: WeekDays,           !- Field 44
+    Until: 9:00,             !- Field 45
+    0,                       !- Field 46
+    Until: 14:00,            !- Field 47
+    1,                       !- Field 48
+    Until: 15:00,            !- Field 49
+    0,                       !- Field 50
+    Until: 18:00,            !- Field 51
+    1,                       !- Field 52
+    Until: 24:00,            !- Field 53
+    0,                       !- Field 54
+    For: AllOtherDays,       !- Field 55
+    Until: 24:00,            !- Field 56
+    0,                       !- Field 57
+    Through: 12/31,          !- Field 58
+    For: AllDays,            !- Field 59
+    Until: 24:00,            !- Field 60
+    0;                       !- Field 61
+
+Schedule:Compact,
+    OccPBSJuntas,            !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Weekdays,           !- Field 6
+    Until: 10:00,            !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 16:00,            !- Field 11
+    0,                       !- Field 12
+    Until: 18:00,            !- Field 13
+    1,                       !- Field 14
+    Until: 24:00,            !- Field 15
+    0,                       !- Field 16
+    For: AllOtherDays,       !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 04/04,          !- Field 20
+    For: AllDays,            !- Field 21
+    Until: 24:00,            !- Field 22
+    0,                       !- Field 23
+    Through: 07/04,          !- Field 24
+    For: WeekDays,           !- Field 25
+    Until: 10:00,            !- Field 26
+    0,                       !- Field 27
+    Until: 14:00,            !- Field 28
+    1,                       !- Field 29
+    Until: 16:00,            !- Field 30
+    0,                       !- Field 31
+    Until: 18:00,            !- Field 32
+    1,                       !- Field 33
+    Until: 24:00,            !- Field 34
+    0,                       !- Field 35
+    For: AllOtherDays,       !- Field 36
+    Until: 24:00,            !- Field 37
+    0,                       !- Field 38
+    Through: 07/25,          !- Field 39
+    For: AllDays,            !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    Through: 12/19,          !- Field 43
+    For: WeekDays,           !- Field 44
+    Until: 10:00,            !- Field 45
+    0,                       !- Field 46
+    Until: 14:00,            !- Field 47
+    1,                       !- Field 48
+    Until: 16:00,            !- Field 49
+    0,                       !- Field 50
+    Until: 18:00,            !- Field 51
+    1,                       !- Field 52
+    Until: 24:00,            !- Field 53
+    0,                       !- Field 54
+    For: AllOtherDays,       !- Field 55
+    Until: 24:00,            !- Field 56
+    0,                       !- Field 57
+    Through: 12/31,          !- Field 58
+    For: AllDays,            !- Field 59
+    Until: 24:00,            !- Field 60
+    0;                       !- Field 61
+
+Schedule:Compact,
+    OccPBSCom,               !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Tuesday,            !- Field 6
+    Until: 12:00,            !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 16:00,            !- Field 11
+    0,                       !- Field 12
+    Until: 18:00,            !- Field 13
+    1,                       !- Field 14
+    Until: 24:00,            !- Field 15
+    0,                       !- Field 16
+    For: Wednesday,          !- Field 17
+    Until: 16:00,            !- Field 18
+    0,                       !- Field 19
+    Until: 18:00,            !- Field 20
+    1,                       !- Field 21
+    Until: 24:00,            !- Field 22
+    0,                       !- Field 23
+    For: Thursday,           !- Field 24
+    Until: 12:00,            !- Field 25
+    0,                       !- Field 26
+    Until: 14:00,            !- Field 27
+    1,                       !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    For: AllOtherDays,       !- Field 31
+    Until: 24:00,            !- Field 32
+    0,                       !- Field 33
+    Through: 04/04,          !- Field 34
+    For: AllDays,            !- Field 35
+    Until: 24:00,            !- Field 36
+    0,                       !- Field 37
+    Through: 07/04,          !- Field 38
+    For: Tuesday,            !- Field 39
+    Until: 12:00,            !- Field 40
+    0,                       !- Field 41
+    Until: 14:00,            !- Field 42
+    1,                       !- Field 43
+    Until: 16:00,            !- Field 44
+    0,                       !- Field 45
+    Until: 18:00,            !- Field 46
+    1,                       !- Field 47
+    Until: 24:00,            !- Field 48
+    0,                       !- Field 49
+    For: Wednesday,          !- Field 50
+    Until: 16:00,            !- Field 51
+    0,                       !- Field 52
+    Until: 18:00,            !- Field 53
+    1,                       !- Field 54
+    Until: 24:00,            !- Field 55
+    0,                       !- Field 56
+    For: Thursday,           !- Field 57
+    Until: 12:00,            !- Field 58
+    0,                       !- Field 59
+    Until: 14:00,            !- Field 60
+    1,                       !- Field 61
+    Until: 24:00,            !- Field 62
+    0,                       !- Field 63
+    For: AllOtherDays,       !- Field 64
+    Until: 24:00,            !- Field 65
+    0,                       !- Field 66
+    Through: 07/25,          !- Field 67
+    For: AllDays,            !- Field 68
+    Until: 24:00,            !- Field 69
+    0,                       !- Field 70
+    Through: 12/19,          !- Field 71
+    For: Tuesday,            !- Field 72
+    Until: 12:00,            !- Field 73
+    0,                       !- Field 74
+    Until: 14:00,            !- Field 75
+    1,                       !- Field 76
+    Until: 16:00,            !- Field 77
+    0,                       !- Field 78
+    Until: 18:00,            !- Field 79
+    1,                       !- Field 80
+    Until: 24:00,            !- Field 81
+    0,                       !- Field 82
+    For: Wednesday,          !- Field 83
+    Until: 16:00,            !- Field 84
+    0,                       !- Field 85
+    Until: 18:00,            !- Field 86
+    1,                       !- Field 87
+    Until: 24:00,            !- Field 88
+    0,                       !- Field 89
+    For: Thursday,           !- Field 90
+    Until: 12:00,            !- Field 91
+    0,                       !- Field 92
+    Until: 14:00,            !- Field 93
+    1,                       !- Field 94
+    Until: 24:00,            !- Field 95
+    0,                       !- Field 96
+    For: AllOtherDays,       !- Field 97
+    Until: 24:00,            !- Field 98
+    0,                       !- Field 99
+    Through: 12/31,          !- Field 100
+    For: AllDays,            !- Field 101
+    Until: 24:00,            !- Field 102
+    0;                       !- Field 103
+
+Schedule:Compact,
+    OccPBCocina,             !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Weekdays,           !- Field 6
+    Until: 9:00,             !- Field 7
+    0,                       !- Field 8
+    Until: 18:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: AllOtherDays,       !- Field 13
+    Until: 24:00,            !- Field 14
+    0,                       !- Field 15
+    Through: 04/04,          !- Field 16
+    For: AllDays,            !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 07/04,          !- Field 20
+    For: WeekDays,           !- Field 21
+    Until: 9:00,             !- Field 22
+    0,                       !- Field 23
+    Until: 18:00,            !- Field 24
+    1,                       !- Field 25
+    Until: 24:00,            !- Field 26
+    0,                       !- Field 27
+    For: AllOtherDays,       !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    Through: 07/25,          !- Field 31
+    For: AllDays,            !- Field 32
+    Until: 24:00,            !- Field 33
+    0,                       !- Field 34
+    Through: 12/19,          !- Field 35
+    For: WeekDays,           !- Field 36
+    Until: 9:00,             !- Field 37
+    0,                       !- Field 38
+    Until: 18:00,            !- Field 39
+    1,                       !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    For: AllOtherDays,       !- Field 43
+    Until: 24:00,            !- Field 44
+    0,                       !- Field 45
+    Through: 12/31,          !- Field 46
+    For: AllDays,            !- Field 47
+    Until: 24:00,            !- Field 48
+    0;                       !- Field 49
+
+Schedule:Compact,
+    PBCafePENDIENTE,         !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Weekdays,           !- Field 6
+    Until: 9:00,             !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 15:00,            !- Field 11
+    0,                       !- Field 12
+    Until: 19:00,            !- Field 13
+    1,                       !- Field 14
+    Until: 24:00,            !- Field 15
+    0,                       !- Field 16
+    For: AllOtherDays,       !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 04/04,          !- Field 20
+    For: AllDays,            !- Field 21
+    Until: 24:00,            !- Field 22
+    0,                       !- Field 23
+    Through: 07/04,          !- Field 24
+    For: WeekDays,           !- Field 25
+    Until: 9:00,             !- Field 26
+    0,                       !- Field 27
+    Until: 14:00,            !- Field 28
+    1,                       !- Field 29
+    Until: 15:00,            !- Field 30
+    0,                       !- Field 31
+    Until: 19:00,            !- Field 32
+    1,                       !- Field 33
+    Until: 24:00,            !- Field 34
+    0,                       !- Field 35
+    For: AllOtherDays,       !- Field 36
+    Until: 24:00,            !- Field 37
+    0,                       !- Field 38
+    Through: 07/25,          !- Field 39
+    For: AllDays,            !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    Through: 12/19,          !- Field 43
+    For: WeekDays,           !- Field 44
+    Until: 9:00,             !- Field 45
+    0,                       !- Field 46
+    Until: 14:00,            !- Field 47
+    1,                       !- Field 48
+    Until: 15:00,            !- Field 49
+    0,                       !- Field 50
+    Until: 19:00,            !- Field 51
+    1,                       !- Field 52
+    Until: 24:00,            !- Field 53
+    0,                       !- Field 54
+    For: AllOtherDays,       !- Field 55
+    Until: 24:00,            !- Field 56
+    0,                       !- Field 57
+    Through: 12/31,          !- Field 58
+    For: AllDays,            !- Field 59
+    Until: 24:00,            !- Field 60
+    0;                       !- Field 61
+
+Schedule:Compact,
+    OccN1Au401,              !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Monday Wednesday,   !- Field 6
+    Until: 8:00,             !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: Tuesday,            !- Field 13
+    Until: 8:00,             !- Field 14
+    0,                       !- Field 15
+    Until: 10:00,            !- Field 16
+    1,                       !- Field 17
+    Until: 16:00,            !- Field 18
+    0,                       !- Field 19
+    Until: 18:00,            !- Field 20
+    1,                       !- Field 21
+    Until: 24:00,            !- Field 22
+    0,                       !- Field 23
+    For: Thursday,           !- Field 24
+    Until: 8:00,             !- Field 25
+    0,                       !- Field 26
+    Until: 14:00,            !- Field 27
+    1,                       !- Field 28
+    Until: 16:00,            !- Field 29
+    0,                       !- Field 30
+    Until: 18:00,            !- Field 31
+    1,                       !- Field 32
+    Until: 24:00,            !- Field 33
+    0,                       !- Field 34
+    For: AllOtherDays,       !- Field 35
+    Until: 24:00,            !- Field 36
+    0,                       !- Field 37
+    Through: 04/04,          !- Field 38
+    For: AllDays,            !- Field 39
+    Until: 24:00,            !- Field 40
+    0,                       !- Field 41
+    Through: 07/04,          !- Field 42
+    For: Monday Wednesday,   !- Field 43
+    Until: 8:00,             !- Field 44
+    0,                       !- Field 45
+    Until: 14:00,            !- Field 46
+    1,                       !- Field 47
+    Until: 24:00,            !- Field 48
+    0,                       !- Field 49
+    For: Tuesday,            !- Field 50
+    Until: 8:00,             !- Field 51
+    0,                       !- Field 52
+    Until: 10:00,            !- Field 53
+    1,                       !- Field 54
+    Until: 16:00,            !- Field 55
+    0,                       !- Field 56
+    Until: 18:00,            !- Field 57
+    1,                       !- Field 58
+    Until: 24:00,            !- Field 59
+    0,                       !- Field 60
+    For: Thursday,           !- Field 61
+    Until: 8:00,             !- Field 62
+    0,                       !- Field 63
+    Until: 14:00,            !- Field 64
+    1,                       !- Field 65
+    Until: 16:00,            !- Field 66
+    0,                       !- Field 67
+    Until: 18:00,            !- Field 68
+    1,                       !- Field 69
+    Until: 24:00,            !- Field 70
+    0,                       !- Field 71
+    For: AllOtherDays,       !- Field 72
+    Until: 24:00,            !- Field 73
+    0,                       !- Field 74
+    Through: 07/25,          !- Field 75
+    For: AllDays,            !- Field 76
+    Until: 24:00,            !- Field 77
+    0,                       !- Field 78
+    Through: 12/19,          !- Field 79
+    For: Monday Wednesday,   !- Field 80
+    Until: 8:00,             !- Field 81
+    0,                       !- Field 82
+    Until: 14:00,            !- Field 83
+    1,                       !- Field 84
+    Until: 24:00,            !- Field 85
+    0,                       !- Field 86
+    For: Tuesday,            !- Field 87
+    Until: 8:00,             !- Field 88
+    0,                       !- Field 89
+    Until: 10:00,            !- Field 90
+    1,                       !- Field 91
+    Until: 16:00,            !- Field 92
+    0,                       !- Field 93
+    Until: 18:00,            !- Field 94
+    1,                       !- Field 95
+    Until: 24:00,            !- Field 96
+    0,                       !- Field 97
+    For: Thursday,           !- Field 98
+    Until: 8:00,             !- Field 99
+    0,                       !- Field 100
+    Until: 14:00,            !- Field 101
+    1,                       !- Field 102
+    Until: 16:00,            !- Field 103
+    0,                       !- Field 104
+    Until: 18:00,            !- Field 105
+    1,                       !- Field 106
+    Until: 24:00,            !- Field 107
+    0,                       !- Field 108
+    For: AllOtherDays,       !- Field 109
+    Until: 24:00,            !- Field 110
+    0,                       !- Field 111
+    Through: 12/31,          !- Field 112
+    For: AllDays,            !- Field 113
+    Until: 24:00,            !- Field 114
+    0;                       !- Field 115
+
+Schedule:Compact,
+    OccN1Au402,              !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Monday Tuesday Friday,  !- Field 6
+    Until: 8:00,             !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: Thursday,           !- Field 13
+    Until: 8:00,             !- Field 14
+    0,                       !- Field 15
+    Until: 12:00,            !- Field 16
+    1,                       !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    For: AllOtherDays,       !- Field 20
+    Until: 24:00,            !- Field 21
+    0,                       !- Field 22
+    Through: 04/04,          !- Field 23
+    For: AllDays,            !- Field 24
+    Until: 24:00,            !- Field 25
+    0,                       !- Field 26
+    Through: 07/04,          !- Field 27
+    For: Monday Tuesday Friday,  !- Field 28
+    Until: 8:00,             !- Field 29
+    0,                       !- Field 30
+    Until: 14:00,            !- Field 31
+    1,                       !- Field 32
+    Until: 24:00,            !- Field 33
+    0,                       !- Field 34
+    For: Thursday,           !- Field 35
+    Until: 8:00,             !- Field 36
+    0,                       !- Field 37
+    Until: 12:00,            !- Field 38
+    1,                       !- Field 39
+    Until: 24:00,            !- Field 40
+    0,                       !- Field 41
+    For: AllOtherDays,       !- Field 42
+    Until: 24:00,            !- Field 43
+    0,                       !- Field 44
+    Through: 07/25,          !- Field 45
+    For: AllDays,            !- Field 46
+    Until: 24:00,            !- Field 47
+    0,                       !- Field 48
+    Through: 12/19,          !- Field 49
+    For: Monday Tuesday Friday,  !- Field 50
+    Until: 8:00,             !- Field 51
+    0,                       !- Field 52
+    Until: 14:00,            !- Field 53
+    1,                       !- Field 54
+    Until: 24:00,            !- Field 55
+    0,                       !- Field 56
+    For: Thursday,           !- Field 57
+    Until: 8:00,             !- Field 58
+    0,                       !- Field 59
+    Until: 12:00,            !- Field 60
+    1,                       !- Field 61
+    Until: 24:00,            !- Field 62
+    0,                       !- Field 63
+    For: AllOtherDays,       !- Field 64
+    Until: 24:00,            !- Field 65
+    0,                       !- Field 66
+    Through: 12/31,          !- Field 67
+    For: AllDays,            !- Field 68
+    Until: 24:00,            !- Field 69
+    0;                       !- Field 70
+
+Schedule:Compact,
+    OccN1Au403,              !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Monday Tuesday Wednesday Thursday,  !- Field 6
+    Until: 12:00,            !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: AllOtherDays,       !- Field 13
+    Until: 24:00,            !- Field 14
+    0,                       !- Field 15
+    Through: 04/04,          !- Field 16
+    For: AllDays,            !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 07/04,          !- Field 20
+    For: Monday Tuesday Wednesday Thursday,  !- Field 21
+    Until: 12:00,            !- Field 22
+    0,                       !- Field 23
+    Until: 14:00,            !- Field 24
+    1,                       !- Field 25
+    Until: 24:00,            !- Field 26
+    0,                       !- Field 27
+    For: AllOtherDays,       !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    Through: 07/25,          !- Field 31
+    For: AllDays,            !- Field 32
+    Until: 24:00,            !- Field 33
+    0,                       !- Field 34
+    Through: 12/19,          !- Field 35
+    For: Monday Tuesday Wednesday Thursday,  !- Field 36
+    Until: 12:00,            !- Field 37
+    0,                       !- Field 38
+    Until: 14:00,            !- Field 39
+    1,                       !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    For: AllOtherDays,       !- Field 43
+    Until: 24:00,            !- Field 44
+    0,                       !- Field 45
+    Through: 12/31,          !- Field 46
+    For: AllDays,            !- Field 47
+    Until: 24:00,            !- Field 48
+    0;                       !- Field 49
+
+Schedule:Compact,
+    OccN1Au404,              !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Monday Tuesday Wednesday,  !- Field 6
+    Until: 8:00,             !- Field 7
+    0,                       !- Field 8
+    Until: 12:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: Thursday ,          !- Field 13
+    Until: 12:00,            !- Field 14
+    0,                       !- Field 15
+    Until: 14:00,            !- Field 16
+    1,                       !- Field 17
+    Until: 16:00,            !- Field 18
+    0,                       !- Field 19
+    Until: 18:00,            !- Field 20
+    1,                       !- Field 21
+    Until: 24:00,            !- Field 22
+    0,                       !- Field 23
+    For: AllOtherDays,       !- Field 24
+    Until: 24:00,            !- Field 25
+    0,                       !- Field 26
+    Through: 04/04,          !- Field 27
+    For: AllDays,            !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    Through: 07/04,          !- Field 31
+    For: Monday Tuesday Wednesday,  !- Field 32
+    Until: 8:00,             !- Field 33
+    0,                       !- Field 34
+    Until: 12:00,            !- Field 35
+    1,                       !- Field 36
+    Until: 24:00,            !- Field 37
+    0,                       !- Field 38
+    For: Thursday ,          !- Field 39
+    Until: 12:00,            !- Field 40
+    0,                       !- Field 41
+    Until: 14:00,            !- Field 42
+    1,                       !- Field 43
+    Until: 16:00,            !- Field 44
+    0,                       !- Field 45
+    Until: 18:00,            !- Field 46
+    1,                       !- Field 47
+    Until: 24:00,            !- Field 48
+    0,                       !- Field 49
+    For: AllOtherDays,       !- Field 50
+    Until: 24:00,            !- Field 51
+    0,                       !- Field 52
+    Through: 07/25,          !- Field 53
+    For: AllDays,            !- Field 54
+    Until: 24:00,            !- Field 55
+    0,                       !- Field 56
+    Through: 12/19,          !- Field 57
+    For: Monday Tuesday Wednesday,  !- Field 58
+    Until: 8:00,             !- Field 59
+    0,                       !- Field 60
+    Until: 12:00,            !- Field 61
+    1,                       !- Field 62
+    Until: 24:00,            !- Field 63
+    0,                       !- Field 64
+    For: Thursday ,          !- Field 65
+    Until: 12:00,            !- Field 66
+    0,                       !- Field 67
+    Until: 14:00,            !- Field 68
+    1,                       !- Field 69
+    Until: 16:00,            !- Field 70
+    0,                       !- Field 71
+    Until: 18:00,            !- Field 72
+    1,                       !- Field 73
+    Until: 24:00,            !- Field 74
+    0,                       !- Field 75
+    For: AllOtherDays,       !- Field 76
+    Until: 24:00,            !- Field 77
+    0,                       !- Field 78
+    Through: 12/31,          !- Field 79
+    For: AllDays,            !- Field 80
+    Until: 24:00,            !- Field 81
+    0;                       !- Field 82
+
+Schedule:Compact,
+    OccN1Lab,                !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Tuesday,            !- Field 6
+    Until: 16:00,            !- Field 7
+    0,                       !- Field 8
+    Until: 18:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: Wednesday,          !- Field 13
+    Until: 8:00,             !- Field 14
+    0,                       !- Field 15
+    Until: 14:00,            !- Field 16
+    1,                       !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    For: Thursday,           !- Field 20
+    Until: 12:00,            !- Field 21
+    0,                       !- Field 22
+    Until: 14:00,            !- Field 23
+    1,                       !- Field 24
+    Until: 16:00,            !- Field 25
+    0,                       !- Field 26
+    Until: 18:00,            !- Field 27
+    1,                       !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    For: AllOtherDays,       !- Field 31
+    Until: 24:00,            !- Field 32
+    0,                       !- Field 33
+    Through: 04/04,          !- Field 34
+    For: AllDays,            !- Field 35
+    Until: 24:00,            !- Field 36
+    0,                       !- Field 37
+    Through: 07/04,          !- Field 38
+    For: Tuesday,            !- Field 39
+    Until: 16:00,            !- Field 40
+    0,                       !- Field 41
+    Until: 18:00,            !- Field 42
+    1,                       !- Field 43
+    Until: 24:00,            !- Field 44
+    0,                       !- Field 45
+    For: Wednesday,          !- Field 46
+    Until: 8:00,             !- Field 47
+    0,                       !- Field 48
+    Until: 14:00,            !- Field 49
+    1,                       !- Field 50
+    Until: 24:00,            !- Field 51
+    0,                       !- Field 52
+    For: Thursday,           !- Field 53
+    Until: 12:00,            !- Field 54
+    0,                       !- Field 55
+    Until: 14:00,            !- Field 56
+    1,                       !- Field 57
+    Until: 16:00,            !- Field 58
+    0,                       !- Field 59
+    Until: 18:00,            !- Field 60
+    1,                       !- Field 61
+    Until: 24:00,            !- Field 62
+    0,                       !- Field 63
+    For: AllOtherDays,       !- Field 64
+    Until: 24:00,            !- Field 65
+    0,                       !- Field 66
+    Through: 07/25,          !- Field 67
+    For: AllDays,            !- Field 68
+    Until: 24:00,            !- Field 69
+    0,                       !- Field 70
+    Through: 12/19,          !- Field 71
+    For: Tuesday,            !- Field 72
+    Until: 16:00,            !- Field 73
+    0,                       !- Field 74
+    Until: 18:00,            !- Field 75
+    1,                       !- Field 76
+    Until: 24:00,            !- Field 77
+    0,                       !- Field 78
+    For: Wednesday,          !- Field 79
+    Until: 8:00,             !- Field 80
+    0,                       !- Field 81
+    Until: 14:00,            !- Field 82
+    1,                       !- Field 83
+    Until: 24:00,            !- Field 84
+    0,                       !- Field 85
+    For: Thursday,           !- Field 86
+    Until: 12:00,            !- Field 87
+    0,                       !- Field 88
+    Until: 14:00,            !- Field 89
+    1,                       !- Field 90
+    Until: 16:00,            !- Field 91
+    0,                       !- Field 92
+    Until: 18:00,            !- Field 93
+    1,                       !- Field 94
+    Until: 24:00,            !- Field 95
+    0,                       !- Field 96
+    For: AllOtherDays,       !- Field 97
+    Until: 24:00,            !- Field 98
+    0,                       !- Field 99
+    Through: 12/31,          !- Field 100
+    For: AllDays,            !- Field 101
+    Until: 24:00,            !- Field 102
+    0;                       !- Field 103
+
+Schedule:Compact,
+    OccN2Au101,              !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Monday,             !- Field 6
+    Until: 12:00,            !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 16:00,            !- Field 11
+    0,                       !- Field 12
+    Until: 18:00,            !- Field 13
+    1,                       !- Field 14
+    Until: 24:00,            !- Field 15
+    0,                       !- Field 16
+    For: Tuesday,            !- Field 17
+    Until: 12:00,            !- Field 18
+    0,                       !- Field 19
+    Until: 14:00,            !- Field 20
+    1,                       !- Field 21
+    Until: 24:00,            !- Field 22
+    0,                       !- Field 23
+    For: AllOtherDays,       !- Field 24
+    Until: 24:00,            !- Field 25
+    0,                       !- Field 26
+    Through: 04/04,          !- Field 27
+    For: AllDays,            !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    Through: 07/04,          !- Field 31
+    For: Monday,             !- Field 32
+    Until: 12:00,            !- Field 33
+    0,                       !- Field 34
+    Until: 14:00,            !- Field 35
+    1,                       !- Field 36
+    Until: 16:00,            !- Field 37
+    0,                       !- Field 38
+    Until: 18:00,            !- Field 39
+    1,                       !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    For: Tuesday,            !- Field 43
+    Until: 12:00,            !- Field 44
+    0,                       !- Field 45
+    Until: 14:00,            !- Field 46
+    1,                       !- Field 47
+    Until: 24:00,            !- Field 48
+    0,                       !- Field 49
+    For: AllOtherDays,       !- Field 50
+    Until: 24:00,            !- Field 51
+    0,                       !- Field 52
+    Through: 07/25,          !- Field 53
+    For: AllDays,            !- Field 54
+    Until: 24:00,            !- Field 55
+    0,                       !- Field 56
+    Through: 12/19,          !- Field 57
+    For: Monday,             !- Field 58
+    Until: 12:00,            !- Field 59
+    0,                       !- Field 60
+    Until: 14:00,            !- Field 61
+    1,                       !- Field 62
+    Until: 16:00,            !- Field 63
+    0,                       !- Field 64
+    Until: 18:00,            !- Field 65
+    1,                       !- Field 66
+    Until: 24:00,            !- Field 67
+    0,                       !- Field 68
+    For: Tuesday,            !- Field 69
+    Until: 12:00,            !- Field 70
+    0,                       !- Field 71
+    Until: 14:00,            !- Field 72
+    1,                       !- Field 73
+    Until: 24:00,            !- Field 74
+    0,                       !- Field 75
+    For: AllOtherDays,       !- Field 76
+    Until: 24:00,            !- Field 77
+    0,                       !- Field 78
+    Through: 12/31,          !- Field 79
+    For: AllDays,            !- Field 80
+    Until: 24:00,            !- Field 81
+    0;                       !- Field 82
+
+Schedule:Compact,
+    OccN2Au102,              !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Monday,             !- Field 6
+    Until: 12:00,            !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 16:00,            !- Field 11
+    0,                       !- Field 12
+    Until: 18:00,            !- Field 13
+    1,                       !- Field 14
+    Until: 24:00,            !- Field 15
+    0,                       !- Field 16
+    For: Tuesday Thursday,   !- Field 17
+    Until: 10:00,            !- Field 18
+    0,                       !- Field 19
+    Until: 12:00,            !- Field 20
+    1,                       !- Field 21
+    Until: 24:00,            !- Field 22
+    0,                       !- Field 23
+    For: Wednesday,          !- Field 24
+    Until: 12:00,            !- Field 25
+    0,                       !- Field 26
+    Until: 14:00,            !- Field 27
+    1,                       !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    For: AllOtherDays,       !- Field 31
+    Until: 24:00,            !- Field 32
+    0,                       !- Field 33
+    Through: 04/04,          !- Field 34
+    For: AllDays,            !- Field 35
+    Until: 24:00,            !- Field 36
+    0,                       !- Field 37
+    Through: 07/04,          !- Field 38
+    For: Monday,             !- Field 39
+    Until: 12:00,            !- Field 40
+    0,                       !- Field 41
+    Until: 14:00,            !- Field 42
+    1,                       !- Field 43
+    Until: 16:00,            !- Field 44
+    0,                       !- Field 45
+    Until: 18:00,            !- Field 46
+    1,                       !- Field 47
+    Until: 24:00,            !- Field 48
+    0,                       !- Field 49
+    For: Tuesday Thursday,   !- Field 50
+    Until: 10:00,            !- Field 51
+    0,                       !- Field 52
+    Until: 12:00,            !- Field 53
+    1,                       !- Field 54
+    Until: 24:00,            !- Field 55
+    0,                       !- Field 56
+    For: Wednesday,          !- Field 57
+    Until: 12:00,            !- Field 58
+    0,                       !- Field 59
+    Until: 14:00,            !- Field 60
+    1,                       !- Field 61
+    Until: 24:00,            !- Field 62
+    0,                       !- Field 63
+    For: AllOtherDays,       !- Field 64
+    Until: 24:00,            !- Field 65
+    0,                       !- Field 66
+    Through: 07/25,          !- Field 67
+    For: AllDays,            !- Field 68
+    Until: 24:00,            !- Field 69
+    0,                       !- Field 70
+    Through: 12/19,          !- Field 71
+    For: Monday,             !- Field 72
+    Until: 12:00,            !- Field 73
+    0,                       !- Field 74
+    Until: 14:00,            !- Field 75
+    1,                       !- Field 76
+    Until: 16:00,            !- Field 77
+    0,                       !- Field 78
+    Until: 18:00,            !- Field 79
+    1,                       !- Field 80
+    Until: 24:00,            !- Field 81
+    0,                       !- Field 82
+    For: Tuesday Thursday,   !- Field 83
+    Until: 10:00,            !- Field 84
+    0,                       !- Field 85
+    Until: 12:00,            !- Field 86
+    1,                       !- Field 87
+    Until: 24:00,            !- Field 88
+    0,                       !- Field 89
+    For: Wednesday,          !- Field 90
+    Until: 12:00,            !- Field 91
+    0,                       !- Field 92
+    Until: 14:00,            !- Field 93
+    1,                       !- Field 94
+    Until: 24:00,            !- Field 95
+    0,                       !- Field 96
+    For: AllOtherDays,       !- Field 97
+    Until: 24:00,            !- Field 98
+    0,                       !- Field 99
+    Through: 12/31,          !- Field 100
+    For: AllDays,            !- Field 101
+    Until: 24:00,            !- Field 102
+    0;                       !- Field 103
+
+Schedule:Compact,
+    OccN2Au103,              !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Tuesday Thursday,   !- Field 6
+    Until: 10:00,            !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: AllOtherDays,       !- Field 13
+    Until: 24:00,            !- Field 14
+    0,                       !- Field 15
+    Through: 04/04,          !- Field 16
+    For: AllDays,            !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 07/04,          !- Field 20
+    For: Tuesday Thursday,   !- Field 21
+    Until: 10:00,            !- Field 22
+    0,                       !- Field 23
+    Until: 14:00,            !- Field 24
+    1,                       !- Field 25
+    Until: 24:00,            !- Field 26
+    0,                       !- Field 27
+    For: AllOtherDays,       !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    Through: 07/25,          !- Field 31
+    For: AllDays,            !- Field 32
+    Until: 24:00,            !- Field 33
+    0,                       !- Field 34
+    Through: 12/19,          !- Field 35
+    For: Tuesday Thursday,   !- Field 36
+    Until: 10:00,            !- Field 37
+    0,                       !- Field 38
+    Until: 14:00,            !- Field 39
+    1,                       !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    For: AllOtherDays,       !- Field 43
+    Until: 24:00,            !- Field 44
+    0,                       !- Field 45
+    Through: 12/31,          !- Field 46
+    For: AllDays,            !- Field 47
+    Until: 24:00,            !- Field 48
+    0;                       !- Field 49
+
+Schedule:Compact,
+    OccN2Au201,              !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Monday,             !- Field 6
+    Until: 12:00,            !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 16:00,            !- Field 11
+    0,                       !- Field 12
+    Until: 18:00,            !- Field 13
+    1,                       !- Field 14
+    Until: 24:00,            !- Field 15
+    0,                       !- Field 16
+    For: Wednesday,          !- Field 17
+    Until: 12:00,            !- Field 18
+    0,                       !- Field 19
+    Until: 14:00,            !- Field 20
+    1,                       !- Field 21
+    Until: 24:00,            !- Field 22
+    0,                       !- Field 23
+    For: Friday,             !- Field 24
+    Until: 8:00,             !- Field 25
+    0,                       !- Field 26
+    Until: 10:00,            !- Field 27
+    1,                       !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    For: AllOtherDays,       !- Field 31
+    Until: 24:00,            !- Field 32
+    0,                       !- Field 33
+    Through: 04/04,          !- Field 34
+    For: AllDays,            !- Field 35
+    Until: 24:00,            !- Field 36
+    0,                       !- Field 37
+    Through: 07/04,          !- Field 38
+    For: Monday,             !- Field 39
+    Until: 12:00,            !- Field 40
+    0,                       !- Field 41
+    Until: 14:00,            !- Field 42
+    1,                       !- Field 43
+    Until: 16:00,            !- Field 44
+    0,                       !- Field 45
+    Until: 18:00,            !- Field 46
+    1,                       !- Field 47
+    Until: 24:00,            !- Field 48
+    0,                       !- Field 49
+    For: Wednesday,          !- Field 50
+    Until: 12:00,            !- Field 51
+    0,                       !- Field 52
+    Until: 14:00,            !- Field 53
+    1,                       !- Field 54
+    Until: 24:00,            !- Field 55
+    0,                       !- Field 56
+    For: Friday,             !- Field 57
+    Until: 8:00,             !- Field 58
+    0,                       !- Field 59
+    Until: 10:00,            !- Field 60
+    1,                       !- Field 61
+    Until: 24:00,            !- Field 62
+    0,                       !- Field 63
+    For: AllOtherDays,       !- Field 64
+    Until: 24:00,            !- Field 65
+    0,                       !- Field 66
+    Through: 07/25,          !- Field 67
+    For: AllDays,            !- Field 68
+    Until: 24:00,            !- Field 69
+    0,                       !- Field 70
+    Through: 12/19,          !- Field 71
+    For: Monday,             !- Field 72
+    Until: 12:00,            !- Field 73
+    0,                       !- Field 74
+    Until: 14:00,            !- Field 75
+    1,                       !- Field 76
+    Until: 16:00,            !- Field 77
+    0,                       !- Field 78
+    Until: 18:00,            !- Field 79
+    1,                       !- Field 80
+    Until: 24:00,            !- Field 81
+    0,                       !- Field 82
+    For: Wednesday,          !- Field 83
+    Until: 12:00,            !- Field 84
+    0,                       !- Field 85
+    Until: 14:00,            !- Field 86
+    1,                       !- Field 87
+    Until: 24:00,            !- Field 88
+    0,                       !- Field 89
+    For: Friday,             !- Field 90
+    Until: 8:00,             !- Field 91
+    0,                       !- Field 92
+    Until: 10:00,            !- Field 93
+    1,                       !- Field 94
+    Until: 24:00,            !- Field 95
+    0,                       !- Field 96
+    For: AllOtherDays,       !- Field 97
+    Until: 24:00,            !- Field 98
+    0,                       !- Field 99
+    Through: 12/31,          !- Field 100
+    For: AllDays,            !- Field 101
+    Until: 24:00,            !- Field 102
+    0;                       !- Field 103
+
+Schedule:Compact,
+    OccN2Au202,              !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Tuesday Thursday,   !- Field 6
+    Until: 8:00,             !- Field 7
+    0,                       !- Field 8
+    Until: 11:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: AllOtherDays,       !- Field 13
+    Until: 24:00,            !- Field 14
+    0,                       !- Field 15
+    Through: 04/04,          !- Field 16
+    For: AllDays,            !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 07/04,          !- Field 20
+    For: Tuesday Thursday,   !- Field 21
+    Until: 8:00,             !- Field 22
+    0,                       !- Field 23
+    Until: 11:00,            !- Field 24
+    1,                       !- Field 25
+    Until: 24:00,            !- Field 26
+    0,                       !- Field 27
+    For: AllOtherDays,       !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    Through: 07/25,          !- Field 31
+    For: AllDays,            !- Field 32
+    Until: 24:00,            !- Field 33
+    0,                       !- Field 34
+    Through: 12/19,          !- Field 35
+    For: Tuesday Thursday,   !- Field 36
+    Until: 8:00,             !- Field 37
+    0,                       !- Field 38
+    Until: 11:00,            !- Field 39
+    1,                       !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    For: AllOtherDays,       !- Field 43
+    Until: 24:00,            !- Field 44
+    0,                       !- Field 45
+    Through: 12/31,          !- Field 46
+    For: AllDays,            !- Field 47
+    Until: 24:00,            !- Field 48
+    0;                       !- Field 49
+
+Schedule:Compact,
+    OccN2Au203,              !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Tuesday Thursday,   !- Field 6
+    Until: 8:00,             !- Field 7
+    0,                       !- Field 8
+    Until: 10:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: AllOtherDays,       !- Field 13
+    Until: 24:00,            !- Field 14
+    0,                       !- Field 15
+    Through: 04/04,          !- Field 16
+    For: AllDays,            !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 07/04,          !- Field 20
+    For: Tuesday Thursday,   !- Field 21
+    Until: 8:00,             !- Field 22
+    0,                       !- Field 23
+    Until: 10:00,            !- Field 24
+    1,                       !- Field 25
+    Until: 24:00,            !- Field 26
+    0,                       !- Field 27
+    For: AllOtherDays,       !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    Through: 07/25,          !- Field 31
+    For: AllDays,            !- Field 32
+    Until: 24:00,            !- Field 33
+    0,                       !- Field 34
+    Through: 12/19,          !- Field 35
+    For: Tuesday Thursday,   !- Field 36
+    Until: 8:00,             !- Field 37
+    0,                       !- Field 38
+    Until: 10:00,            !- Field 39
+    1,                       !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    For: AllOtherDays,       !- Field 43
+    Until: 24:00,            !- Field 44
+    0,                       !- Field 45
+    Through: 12/31,          !- Field 46
+    For: AllDays,            !- Field 47
+    Until: 24:00,            !- Field 48
+    0;                       !- Field 49
+
+Schedule:Compact,
+    OccN2AuStrGRAL,          !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Weekdays,           !- Field 6
+    Until: 9:00,             !- Field 7
+    0,                       !- Field 8
+    Until: 14:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 15:00,            !- Field 11
+    0,                       !- Field 12
+    Until: 19:00,            !- Field 13
+    1,                       !- Field 14
+    Until: 24:00,            !- Field 15
+    0,                       !- Field 16
+    For: AllOtherDays,       !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 04/04,          !- Field 20
+    For: AllDays,            !- Field 21
+    Until: 24:00,            !- Field 22
+    0,                       !- Field 23
+    Through: 07/04,          !- Field 24
+    For: WeekDays,           !- Field 25
+    Until: 9:00,             !- Field 26
+    0,                       !- Field 27
+    Until: 14:00,            !- Field 28
+    1,                       !- Field 29
+    Until: 15:00,            !- Field 30
+    0,                       !- Field 31
+    Until: 19:00,            !- Field 32
+    1,                       !- Field 33
+    Until: 24:00,            !- Field 34
+    0,                       !- Field 35
+    For: AllOtherDays,       !- Field 36
+    Until: 24:00,            !- Field 37
+    0,                       !- Field 38
+    Through: 07/25,          !- Field 39
+    For: AllDays,            !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    Through: 12/19,          !- Field 43
+    For: WeekDays,           !- Field 44
+    Until: 9:00,             !- Field 45
+    0,                       !- Field 46
+    Until: 14:00,            !- Field 47
+    1,                       !- Field 48
+    Until: 15:00,            !- Field 49
+    0,                       !- Field 50
+    Until: 19:00,            !- Field 51
+    1,                       !- Field 52
+    Until: 24:00,            !- Field 53
+    0,                       !- Field 54
+    For: AllOtherDays,       !- Field 55
+    Until: 24:00,            !- Field 56
+    0,                       !- Field 57
+    Through: 12/31,          !- Field 58
+    For: AllDays,            !- Field 59
+    Until: 24:00,            !- Field 60
+    0;                       !- Field 61
+
+Schedule:Compact,
+    OccN2Lab1,               !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Friday,             !- Field 6
+    Until: 8:00,             !- Field 7
+    0,                       !- Field 8
+    Until: 12:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: AllOtherDays,       !- Field 13
+    Until: 24:00,            !- Field 14
+    0,                       !- Field 15
+    Through: 04/04,          !- Field 16
+    For: AllDays,            !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 07/04,          !- Field 20
+    For: Friday,             !- Field 21
+    Until: 8:00,             !- Field 22
+    0,                       !- Field 23
+    Until: 12:00,            !- Field 24
+    1,                       !- Field 25
+    Until: 24:00,            !- Field 26
+    0,                       !- Field 27
+    For: AllOtherDays,       !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    Through: 07/25,          !- Field 31
+    For: AllDays,            !- Field 32
+    Until: 24:00,            !- Field 33
+    0,                       !- Field 34
+    Through: 12/19,          !- Field 35
+    For: Friday,             !- Field 36
+    Until: 8:00,             !- Field 37
+    0,                       !- Field 38
+    Until: 12:00,            !- Field 39
+    1,                       !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    For: AllOtherDays,       !- Field 43
+    Until: 24:00,            !- Field 44
+    0,                       !- Field 45
+    Through: 12/31,          !- Field 46
+    For: AllDays,            !- Field 47
+    Until: 24:00,            !- Field 48
+    0;                       !- Field 49
+
+Schedule:Compact,
+    OccN2Lab2,               !- Name
+    Fraction,                !- Schedule Type Limits Name
+    Through: 01/03,          !- Field 1
+    For: AllDays,            !- Field 2
+    Until: 24:00,            !- Field 3
+    0,                       !- Field 4
+    Through: 03/28,          !- Field 5
+    For: Tuesday Thursday,   !- Field 6
+    Until: 16:00,            !- Field 7
+    0,                       !- Field 8
+    Until: 18:00,            !- Field 9
+    1,                       !- Field 10
+    Until: 24:00,            !- Field 11
+    0,                       !- Field 12
+    For: AllOtherDays,       !- Field 13
+    Until: 24:00,            !- Field 14
+    0,                       !- Field 15
+    Through: 04/04,          !- Field 16
+    For: AllDays,            !- Field 17
+    Until: 24:00,            !- Field 18
+    0,                       !- Field 19
+    Through: 07/04,          !- Field 20
+    For: Tuesday Thursday,   !- Field 21
+    Until: 16:00,            !- Field 22
+    0,                       !- Field 23
+    Until: 18:00,            !- Field 24
+    1,                       !- Field 25
+    Until: 24:00,            !- Field 26
+    0,                       !- Field 27
+    For: AllOtherDays,       !- Field 28
+    Until: 24:00,            !- Field 29
+    0,                       !- Field 30
+    Through: 07/25,          !- Field 31
+    For: AllDays,            !- Field 32
+    Until: 24:00,            !- Field 33
+    0,                       !- Field 34
+    Through: 12/19,          !- Field 35
+    For: Tuesday Thursday,   !- Field 36
+    Until: 16:00,            !- Field 37
+    0,                       !- Field 38
+    Until: 18:00,            !- Field 39
+    1,                       !- Field 40
+    Until: 24:00,            !- Field 41
+    0,                       !- Field 42
+    For: AllOtherDays,       !- Field 43
+    Until: 24:00,            !- Field 44
+    0,                       !- Field 45
+    Through: 12/31,          !- Field 46
+    For: AllDays,            !- Field 47
+    Until: 24:00,            !- Field 48
+    0;                       !- Field 49
+
+
+!-   ===========  ALL OBJECTS IN CLASS: SCHEDULE:CONSTANT ===========
+
+Schedule:Constant,
+    ActPersonal,             !- Name
+    ActivityLevel,           !- Schedule Type Limits Name
+    130;                     !- Hourly Value
+
+
+!-   ===========  ALL OBJECTS IN CLASS: OUTPUT:SCHEDULES ===========
+
+Output:Schedules,
+    Hourly;                  !- Key Field
+
