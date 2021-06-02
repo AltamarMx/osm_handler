@@ -94,14 +94,27 @@ def __clean_objects(object_list):
 #     print(object_list_cleaned[0])
     return(object_list_cleaned)
  
-def __create_dictionary(object_list_cleaned, objKey):
-    #2021/06/16 eapuertoc: Ajuste temporal, es necesario pensar en un archivo de validación para generalizar el programa
-    diccionario = {}
+def __create_dictionary(object_list_cleaned, objKey, use_handle=False):
+    #2021/06/02 Corregido para entregar diccionario de cualquier objeto
+    """Creates dictionary based on the cleaned list. Validates the values if objKey is "Material"
+    
+    Parameters:
+    -----------
+    object_list_cleaned -- List cleaned
+    objKey -- Key of the reference object to validate
+    use_handle -- True: the handle is used as key in the dictionary, else use the third element of the list object
+    
+    Returns:
+    --------
+    dictionary -- dictionary with the content of the list
+    """
+    dictionary = {}
     for objeto in object_list_cleaned:
-        #2021/06/16 eapuertoc: Temporalmente el código sólo trabaja con la clave "Material"
-        if (objKey == "Material"):
+        if (use_handle):
+            nombre_objeto,_ = objeto[1].split(",")
+        else:
             nombre_objeto,_ = objeto[2].split(",")
-#           print("nombre",len(nombre_objeto),nombre_objeto)
+        if (objKey == "Material"):
             tmp = {
                 "Handle":"texto",
                 "Name":"nombre",
@@ -114,31 +127,19 @@ def __create_dictionary(object_list_cleaned, objKey):
                 "Solar Absorptance":0.7,
                 "Visible Absorptance":0.7,
                 "Comments":""}
-                #print(objeto)
-            for propiedad in range(1,len(objeto)-1):
-                #print(propiedad)
-                valor,nombre = objeto[propiedad].split(",")
-                valor = valor.strip()
-                nombre = nombre.strip()
-                #print("valor",valor)
-                #print("nombre",nombre)
-                try:
-                    valor = float(valor)
-                except:
-                    pass
-                tmp.update({nombre:valor})
-            #print(valor,nombre)
-            valor,nombre = objeto[-1].split(";")
-            valor  = valor.strip()
+        else:
+            tmp = {}
+        for propiedad in range(1,len(objeto)-1):
+            valor,nombre = objeto[propiedad].split(",")
+            valor = valor.strip()
             nombre = nombre.strip()
             try:
                 valor = float(valor)
             except:
                 pass
-            tmp.update({nombre:valor})
-            diccionario.update({nombre_objeto:tmp}) 
-            #Borra el Handle antes de entregar el diccionario
-    return diccionario
+            tmp[nombre] = valor
+        dictionary.update({nombre_objeto:tmp}) 
+    return dictionary
 
 
 def save_dict(file,dictionary, handle=False):
@@ -166,14 +167,15 @@ def save_dict(file,dictionary, handle=False):
         archivo.close()
 
 
-def load_dict(file, format="json", objKey=""):
+def load_dict(file, format="json", objKey="", use_handle=False):
     #2021/06/16 eapuertoc: Se extiende el uso para cargar dictionary de cualquier objeto y de archivos epJSON
     """Returns a dictionary loaded from JSON file
     Parameters:
     ----------
-    file -- File handle to OPEN json file with the dictionary.
+    file -- File handle to OPEN json file with the dictionary
     format -- Indicates the format of the file loaded
     objKey -- Key of a specified object to extract
+    use_handle -- The dictionary has as Key the OSM Handle
     
     Returns:
     -------
@@ -196,7 +198,7 @@ def load_dict(file, format="json", objKey=""):
             object_list, rest_list  = __separate_objects_rest(osm_list, objKey)
             object_list = __clean_objects(object_list)
             #rest_list   = __clean_objects(rest_list)
-            dictionary = __create_dictionary(object_list, objKey)
+            dictionary = __create_dictionary(object_list, objKey, use_handle=use_handle)
     return dictionary
 
 def update_dict(old_dict, new_dict):
