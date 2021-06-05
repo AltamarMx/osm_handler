@@ -1,0 +1,4665 @@
+{
+    "Output:Schedules": {
+        "Output:Schedules 1": {
+            "key_field": "Hourly"
+        }
+    },
+    "Schedule:Compact": {
+        "OccAdmonGeneral": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Weekdays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 19:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: WeekDays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 19:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: WeekDays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 19:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN1Au401": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Monday Wednesday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Tuesday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Monday Wednesday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Tuesday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Monday Wednesday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Tuesday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN1Au402": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Monday Tuesday Friday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Monday Tuesday Friday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Monday Tuesday Friday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN1Au403": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Monday Tuesday Wednesday Thursday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Monday Tuesday Wednesday Thursday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Monday Tuesday Wednesday Thursday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN1Au404": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Monday Tuesday Wednesday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Monday Tuesday Wednesday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Monday Tuesday Wednesday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN1Lab": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Tuesday"
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Wednesday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Tuesday"
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Wednesday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Tuesday"
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Wednesday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN2Au101": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Monday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Tuesday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Monday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Tuesday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Monday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Tuesday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN2Au102": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Monday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Wednesday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Monday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Wednesday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Monday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Wednesday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN2Au103": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN2Au201": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Monday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Wednesday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Friday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Monday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Wednesday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Friday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Monday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Wednesday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Friday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN2Au202": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 11:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 11:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 11:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN2Au203": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN2AuStrGRAL": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Weekdays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 19:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: WeekDays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 19:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: WeekDays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 19:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN2Lab1": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Friday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Friday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Friday"
+                },
+                {
+                    "field": "Until: 8:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccN2Lab2": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Tuesday Thursday"
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccPBAdmAdministrativo": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Weekdays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: WeekDays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: WeekDays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccPBCocina": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Weekdays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: WeekDays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: WeekDays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccPBCoorCOFI": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Weekdays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Weekdays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Weekdays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccPBSCom": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Tuesday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Wednesday"
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Tuesday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Wednesday"
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Tuesday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Wednesday"
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: Thursday"
+                },
+                {
+                    "field": "Until: 12:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccPBSJuntas": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Weekdays"
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: WeekDays"
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: WeekDays"
+                },
+                {
+                    "field": "Until: 10:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 16:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 18:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "OccPBVestibulo": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Weekdays"
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 19:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: Weekdays"
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 19:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: Weekdays"
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 19:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        },
+        "PBCafePENDIENTE": {
+            "data": [
+                {
+                    "field": "Through: 01/03"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 03/28"
+                },
+                {
+                    "field": "For: Weekdays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 19:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 04/04"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/04"
+                },
+                {
+                    "field": "For: WeekDays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 19:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 07/25"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/19"
+                },
+                {
+                    "field": "For: WeekDays"
+                },
+                {
+                    "field": "Until: 9:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 14:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 15:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Until: 19:00"
+                },
+                {
+                    "field": 1
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "For: AllOtherDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                },
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 0
+                }
+            ],
+            "schedule_type_limits_name": "Fraction"
+        }
+    },
+    "Schedule:Constant": {
+        "ActPersonal": {
+            "hourly_value": 130,
+            "schedule_type_limits_name": "ActivityLevel"
+        }
+    },
+    "ScheduleTypeLimits": {
+        "ActivityLevel": {
+            "lower_limit_value": 0,
+            "numeric_type": "Continuous",
+            "unit_type": "ActivityLevel",
+            "upper_limit_value": 300
+        },
+        "Fraction": {
+            "lower_limit_value": 0,
+            "numeric_type": "Continuous",
+            "unit_type": "Dimensionless",
+            "upper_limit_value": 1
+        }
+    },
+    "Version": {
+        "Version 1": {
+            "version_identifier": "9.3"
+        }
+    }
+}

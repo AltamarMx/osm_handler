@@ -8,7 +8,7 @@
     "Specific Heat {J/kg-K}": 1210.0,
     "Thermal Absorptance": 0.8,
     "Solar Absorptance": 0.3,
-    "Visible Absorptance": 0.3,
+    "Visible Absorptance": 0.7,
     "Comments": ""
   },
   "concreto_fc250_L200_a50": {
@@ -20,7 +20,7 @@
     "Specific Heat {J/kg-K}": 1000.0,
     "Thermal Absorptance": 0.9,
     "Solar Absorptance": 0.5,
-    "Visible Absorptance": 0.5,
+    "Visible Absorptance": 0.7,
     "Comments": ""
   },
   "impermeabilizante_L5_a30": {
@@ -32,7 +32,7 @@
     "Specific Heat {J/kg-K}": 1460.0,
     "Thermal Absorptance": 0.9,
     "Solar Absorptance": 0.3,
-    "Visible Absorptance": 0.3,
+    "Visible Absorptance": 0.7,
     "Comments": ""
   },
   "fachaleta_L10_a30": {
@@ -56,7 +56,7 @@
     "Specific Heat {J/kg-K}": 670.0,
     "Thermal Absorptance": 0.9,
     "Solar Absorptance": 0.3,
-    "Visible Absorptance": 0.3,
+    "Visible Absorptance": 0.7,
     "Comments": ""
   },
   "concreto_fc150_marmol_L80_a70": {
@@ -92,7 +92,7 @@
     "Specific Heat {J/kg-K}": 800.0,
     "Thermal Absorptance": 0.9,
     "Solar Absorptance": 0.3,
-    "Visible Absorptance": 0.3,
+    "Visible Absorptance": 0.7,
     "Comments": ""
   },
   "lana_L64": {
@@ -128,7 +128,7 @@
     "Specific Heat {J/kg-K}": 800.0,
     "Thermal Absorptance": 0.9,
     "Solar Absorptance": 0.3,
-    "Visible Absorptance": 0.3,
+    "Visible Absorptance": 0.7,
     "Comments": ""
   },
   "vermiculita_L100": {
@@ -149,7 +149,7 @@
     "Thickness {m}": 0.05,
     "Conductivity {W/m-K}": 225.94,
     "Density {kg/m3}": 2698.0,
-    "Specific Heat {J/kg-K}": 921.0,
+    "Specific Heat {J/kg-K}": 100.0,
     "Thermal Absorptance": 0.9,
     "Solar Absorptance": 0.7,
     "Visible Absorptance": 0.7,
@@ -164,7 +164,7 @@
     "Specific Heat {J/kg-K}": 418.4,
     "Thermal Absorptance": 0.9,
     "Solar Absorptance": 0.4,
-    "Visible Absorptance": 0.4,
+    "Visible Absorptance": 0.7,
     "Comments": ""
   },
   "F16AcousticTile_L19_a30": {
@@ -176,7 +176,7 @@
     "Specific Heat {J/kg-K}": 590.000000000002,
     "Thermal Absorptance": 0.9,
     "Solar Absorptance": 0.3,
-    "Visible Absorptance": 0.3,
+    "Visible Absorptance": 0.7,
     "Comments": ""
   },
   "concreto_fc250_L170": {
