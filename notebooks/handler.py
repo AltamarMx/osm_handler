@@ -129,8 +129,8 @@ def __create_dictionary(object_list_cleaned, objKey, use_handle=False):
                 "Comments":""}
         else:
             tmp = {}
-        for propiedad in range(1,len(objeto)-1):
-            valor,nombre = objeto[propiedad].split(",")
+        for propiedad in range(1,len(objeto)):
+            valor,nombre = objeto[propiedad].replace(';',',').split(',')
             valor = valor.strip()
             nombre = nombre.strip()
             try:
@@ -204,7 +204,10 @@ def load_dict(file, format="json", objKey="", use_handle=False):
 def update_dict(old_dict, new_dict):
     for material in new_dict.keys():
         for propiedad in new_dict[material].keys():
-            old_dict[material][propiedad] = new_dict[material][propiedad]
+            try:
+                old_dict[material][propiedad] = new_dict[material][propiedad]
+            except:
+                pass
     return old_dict
 
 
@@ -263,7 +266,7 @@ def __merge_osm(new_file,file1="tmp.osm",file2="tmp2.osm"):
         fp.write(data1)
     print("saved file:",new_file)   
     
-def update_osm(osm_file,new_dict,delete=True,new_file="actualizado.osm", objKey=""):
+def update_osm(osm_file, new_dict, delete=True, new_file="actualizado.osm", objKey=""):
     osm      = __open_osm(osm_file)
     osm_list = __objects_to_list(osm)[0]
     object_list, rest_list  = __separate_objects_rest(osm_list, objKey)
